@@ -68,3 +68,6 @@
 
 ### 모바일 모델 제작하기
 - 예를 들어, 이미 만들어져 있는 모델과 턴키 솔루션을 사용하여 문제를 해결할 수 있고, 또 다른 방법으로 전이 학습을 많이 사용합니다.
+
+### 기타
+- https://github.com/tucan9389/ondevice-ml-book/blob/main/BookSource/Chapter01/firstmodel.py

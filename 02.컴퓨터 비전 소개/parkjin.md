@@ -21,7 +21,7 @@ model = Sequentail([
 아주 단순한 이미지라 하더라도 하나의 값만으로 표현하기에는 일반적인 이미지에는 너무 많은 내용을 담고 있으므로    
 뉴런 하나만으로는 이미지를 이해하는 데는 무리가 있다
 
-<img width="500" src="https://user-images.githubusercontent.com/50200481/220629355-574f671f-c09a-4863-81a9-30efcea444fd.png">
+<img width="400" src="https://user-images.githubusercontent.com/50200481/220629355-574f671f-c09a-4863-81a9-30efcea444fd.png">
 
 이미지를 해석하는 법을 배울 때도 컴퓨터가 이해할 수 있는 항목의 개수를 제한하는 것이 좋다   
 
@@ -31,7 +31,7 @@ model = Sequentail([
 신경망에 입력값으로 이미지를 넣으면 마지막 두 뉴런을 통해 결괏값을 얻을 수 있다    
 두 뉴런의 결과값은 강아지와 고양이를 의미하며 이를 통해 이미지를 '본다'고 할 수 있다  
 
-<img width="500" src="https://user-images.githubusercontent.com/50200481/220633543-5b5d6969-10a7-40f8-bb62-32afebe27a3f.png">
+<img width="400" src="https://user-images.githubusercontent.com/50200481/220633543-5b5d6969-10a7-40f8-bb62-32afebe27a3f.png">
 
 컴퓨터가 이미지를 입력으로 받아서 우리가 원하는 출력 뉴런으로 만드는 방법으로는 **one-hot encoding**을 사용하는 것이다    
 전체 카테고리 수만큼 0을 가지는 벡터를 이용해서 원하는 카테고리만 1로 표현하는 표현법이다
@@ -42,5 +42,21 @@ model = Sequentail([
 모델에 고양이 이미지를 넣으면 출력 뉴런으로 [1,0]으로 인코딩되어 고양이를 '보았다'라고 식별할 수 있다   
 이런 출력 형태는 신경망을 학습하는 데 흔히 사용되는 기본 데이터 표현 방식이다   
 
+## 패션 MNIST
 
+<img width="300" src="https://user-images.githubusercontent.com/50200481/220640993-6b31b36a-02d6-41c0-9de1-957de47d88d0.png">
+
+알고리즘 학습과 벤치마킹에서 가장 기초적인 데이터셋 중 하나는 **MNIST** 데이터셋이다    
+0에서 9까지 손글씨 숫자를 70,000개의 이미지로 담고 있고, 각 이미지는 28 x 28 회색조로 되어 있다   
+
+**패션 MNIST**는 MNIST와 같은 수의 데이터 쌍, 같은 이미지 크기, 같은 클래스 개수로 이루어져 있어서    
+MNIST 속 이미지를 교체해서 사용할 수 있도록 구성되어 있다   
+0에서 9까지 숫자 이미지 대신 10가지 다른 종유의 의류 이미지가 들어 있다     
+
+## 패션 MNIST 모델 아키텍처
+
+<img width="500" src="https://user-images.githubusercontent.com/50200481/220641523-88967d85-9a72-4eec-a44f-4001174c4eba.png">
+
+패션 MNIST에 10가지 의류 클래스가 있으므로 10개 뉴런을 가지는 출력 레이어가 필요하다   
+뉴런의 개수는 언제든 바뀔 수 있고, 이미지 픽셀을 변환해 뉴런에 넣을 것이다   
 

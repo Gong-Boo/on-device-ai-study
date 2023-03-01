@@ -2,15 +2,15 @@ package com.parkjin.mlkit.extension
 
 import android.graphics.Bitmap
 import android.graphics.Canvas
-import android.graphics.Color
 import android.graphics.Paint
+import androidx.annotation.ColorInt
 import com.google.mlkit.vision.face.Face
 
 fun Bitmap.drawStrokeRectangle(
     faces: List<Face>,
-    color: Int = Color.RED,
-    strokeWidth: Float = 4.0f,
-    isAntiAlias: Boolean = true
+    @ColorInt color: Int,
+    strokeWidth: Float,
+    isAntiAlias: Boolean
 ): Bitmap = apply {
     val canvas = Canvas(this)
     val paint = Paint().apply {

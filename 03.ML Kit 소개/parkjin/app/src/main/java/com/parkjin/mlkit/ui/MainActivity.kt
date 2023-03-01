@@ -1,5 +1,7 @@
 package com.parkjin.mlkit.ui
 
+import android.graphics.Bitmap
+import android.graphics.Color
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
@@ -11,29 +13,33 @@ import kotlinx.coroutines.launch
 
 class MainActivity : AppCompatActivity() {
 
-    companion object {
-        private const val FILE_NAME = "face-test.jpg"
-    }
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
         val rootView = MainView(this)
         setContentView(rootView)
-        initialize(rootView)
+
+        assetsToBitmap(fileName = "face-test.jpg")
+            ?.also {
+                val bitmap = it.copy(it.config, true)
+                initializeView(rootView, bitmap)
+            } ?: finish()
     }
 
-    private fun initialize(rootView: MainView) {
-        val bitmap = assetsToBitmap(FILE_NAME)
-            ?.let { it.copy(it.config, true) }
-            ?: return
-
+    private fun initializeView(rootView: MainView, bitmap: Bitmap) {
         rootView.setImageBitmap(bitmap)
+
         rootView.setOnButtonClickListener {
             lifecycleScope.launch {
                 val faces = FaceProcessor.process(bitmap, FaceDetectorOptions.PERFORMANCE_MODE_FAST)
-                bitmap.drawStrokeRectangle(faces)
+                bitmap.drawStrokeRectangle(
+                    faces = faces,
+                    color = Color.RED,
+                    strokeWidth = 4.0f,
+                    isAntiAlias = true
+                )
             }
         }
     }
+
 }

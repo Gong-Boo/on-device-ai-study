@@ -1,4 +1,4 @@
-package com.parkjin.mlkit
+package com.parkjin.mlkit.ui
 
 import android.content.Context
 import android.graphics.Bitmap
@@ -6,6 +6,7 @@ import android.util.AttributeSet
 import android.widget.Button
 import android.widget.ImageView
 import androidx.constraintlayout.widget.ConstraintLayout
+import com.parkjin.mlkit.R
 
 class MainView @JvmOverloads constructor(
     context: Context,

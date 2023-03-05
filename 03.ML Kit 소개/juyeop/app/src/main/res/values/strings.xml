@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">FD</string>
+    <string name="detect_face">detect face</string>
+    <string name="smile_face">%d번째 얼굴은 이쁘게 웃고 있네요</string>
 </resources>

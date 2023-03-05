@@ -2,86 +2,151 @@ package com.example.fd
 
 import android.content.Context
 import android.graphics.*
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
-import android.widget.ImageView
+import android.util.Log
+import android.widget.Toast
+import androidx.activity.ComponentActivity
+import androidx.activity.compose.setContent
+import androidx.compose.runtime.*
+import com.example.fd.ui.theme.FDTheme
 import com.google.mlkit.vision.common.InputImage
-import com.google.mlkit.vision.face.Face
-import com.google.mlkit.vision.face.FaceDetection
-import com.google.mlkit.vision.face.FaceDetectorOptions
-import java.io.IOException
+import com.google.mlkit.vision.face.*
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : ComponentActivity() {
 
     companion object {
-        private const val FILE_NAME = "face-test-3.jpg"
+        private const val TAG = "MainActivity"
+        private const val IMG_FILE_NAME = "img_face_test.png"
     }
 
-    private val button: Button by lazy {
-        findViewById(R.id.btnTest)
+    private val bitmap: MutableState<Bitmap?> by lazy {
+        mutableStateOf(assetsToBitmap(IMG_FILE_NAME))
     }
 
-    private val imageView: ImageView by lazy {
-        findViewById(R.id.imageFace)
+    private val faceDetectorOptions: FaceDetectorOptions by lazy {
+        FaceDetectorOptions.Builder()
+            .setPerformanceMode(FaceDetectorOptions.PERFORMANCE_MODE_ACCURATE)
+            .setLandmarkMode(FaceDetectorOptions.LANDMARK_MODE_ALL)
+            .setContourMode(FaceDetectorOptions.CONTOUR_MODE_ALL)
+            .setClassificationMode(FaceDetectorOptions.CLASSIFICATION_MODE_ALL)
+            .setMinFaceSize(0.1F)
+            .enableTracking()
+            .build()
+    }
+
+    private val faceDetector: FaceDetector by lazy {
+        FaceDetection.getClient(faceDetectorOptions)
+    }
+
+    private val inputImage: InputImage? by lazy {
+        bitmap.value?.let {
+            InputImage.fromBitmap(it, 0)
+        }
+    }
+
+    private val onButtonClickListener: () -> Unit = {
+        inputImage?.let { image ->
+            faceDetector.process(image)
+                .addOnSuccessListener {
+                    val resultBitmap = bitmap.value?.expressResultToBitmap(it)
+                    bitmap.value = resultBitmap
+                }
+                .addOnFailureListener {
+                    Log.e(TAG, it.message.toString())
+                }
+        }
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-
-        val bitmap = assetsToBitmap(FILE_NAME)
-        bitmap?.apply {
-            imageView.setImageBitmap(this)
-        }
-
-        button.setOnClickListener {
-            val highAccuracyOpts = FaceDetectorOptions.Builder()
-                .setPerformanceMode(FaceDetectorOptions.PERFORMANCE_MODE_ACCURATE)
-                .build()
-
-            val detector = FaceDetection.getClient(highAccuracyOpts)
-            val image = InputImage.fromBitmap(bitmap!!, 0)
-
-            detector.process(image)
-                .addOnSuccessListener { faces ->
-                    bitmap.apply {
-                        imageView.setImageBitmap(drawWithRectangle(faces))
-                    }
-                }
-                .addOnFailureListener { e ->
-                    print(e)
-                }
+        setContent {
+            FDTheme {
+                MainScreen(
+                    bitmap = bitmap.value,
+                    onButtonClickListener = onButtonClickListener
+                )
+            }
         }
     }
 
     private fun Context.assetsToBitmap(fileName: String): Bitmap? {
         return try {
-            with(assets.open(fileName)) {
+            assets.open(fileName).run {
                 BitmapFactory.decodeStream(this)
             }
-        } catch (e: IOException) {
+        } catch (e: Exception) {
+            Log.e(TAG, e.message.toString())
             null
         }
     }
 
-    private fun Bitmap.drawWithRectangle(faces: List<Face>): Bitmap? {
-        val bitmap = copy(config, true)
-        val canvas = Canvas(bitmap)
+    private fun Bitmap.expressResultToBitmap(faces: List<Face>): Bitmap? {
+        val resultBitmap = copy(config, true)
+        val canvas = Canvas(resultBitmap)
 
-        faces.forEach { face ->
-            val bounds = face.boundingBox
+        faces.map {
+            val id = it.trackingId
 
-            Paint().apply {
-                color = Color.RED
-                style = Paint.Style.STROKE
-                strokeWidth = 4F
-                isAntiAlias = true
+            with(canvas) {
+                drawFaceBoundingBox(it.boundingBox)
+                drawLandmarks(it.allLandmarks)
+                drawContours(it.allContours)
+            }
 
-                canvas.drawRect(bounds, this)
+            it.smilingProbability?.let {
+                Toast.makeText(this@MainActivity, getString(R.string.smile_face, id), Toast.LENGTH_LONG).show()
             }
         }
 
-        return bitmap
+        return resultBitmap
+    }
+
+    private fun Canvas.drawFaceBoundingBox(bounds: Rect) {
+        Paint().apply {
+            color = Color.RED
+            style = Paint.Style.STROKE
+            strokeWidth = 4.0f
+            isAntiAlias = true
+            drawRect(
+                bounds,
+                this
+            )
+        }
+    }
+
+    private fun Canvas.drawLandmarks(landmarks: List<FaceLandmark>) {
+        val paint = Paint().apply {
+            color = Color.BLUE
+            style = Paint.Style.FILL
+            strokeWidth = 10.0F
+            isAntiAlias = true
+        }
+
+        landmarks.map {
+            drawPoint(
+                it.position.x,
+                it.position.y,
+                paint
+            )
+        }
+    }
+
+    private fun Canvas.drawContours(contours: List<FaceContour>) {
+        val paint = Paint().apply {
+            color = Color.GREEN
+            style = Paint.Style.FILL
+            strokeWidth = 5.0F
+            isAntiAlias = true
+        }
+
+        contours.map { contour ->
+            contour.points.map {
+                drawPoint(
+                    it.x,
+                    it.y,
+                    paint
+                )
+            }
+        }
     }
 }

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">image-labeling</string>
+    <string name="label_image">label image</string>
+    <string name="result_text">%s (%f%%)\n</string>
+</resources>

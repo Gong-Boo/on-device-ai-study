@@ -1,14 +1,11 @@
 package com.parkjin.mlkit.ui
 
 import android.graphics.Bitmap
-import android.graphics.Color
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
-import com.google.mlkit.vision.face.FaceDetectorOptions
-import com.parkjin.mlkit.extension.assetsToBitmap
-import com.parkjin.mlkit.extension.drawStrokeRectangle
-import com.parkjin.mlkit.util.FaceProcessor
+import com.parkjin.mlkit.extension.toBitmap
+import com.parkjin.mlkit.util.ImageLabeler
 import kotlinx.coroutines.launch
 
 class MainActivity : AppCompatActivity() {
@@ -19,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         val rootView = MainView(this)
         setContentView(rootView)
 
-        assetsToBitmap(fileName = "face-test.jpg")
+        assets.toBitmap(fileName = "figure4-1.jpg")
             ?.also {
                 val bitmap = it.copy(it.config, true)
                 initializeView(rootView, bitmap)
@@ -31,15 +28,9 @@ class MainActivity : AppCompatActivity() {
 
         rootView.setOnButtonClickListener {
             lifecycleScope.launch {
-                val faces = FaceProcessor.process(bitmap, FaceDetectorOptions.PERFORMANCE_MODE_FAST)
-                bitmap.drawStrokeRectangle(
-                    faces = faces,
-                    color = Color.RED,
-                    strokeWidth = 4.0f,
-                    isAntiAlias = true
-                )
+                val label = ImageLabeler.process(bitmap)
+                rootView.setOutputText(label)
             }
         }
     }
-
 }

@@ -3,30 +3,43 @@ package com.parkjin.mlkit.ui
 import android.content.Context
 import android.graphics.Bitmap
 import android.util.AttributeSet
+import android.view.Gravity
 import android.widget.Button
 import android.widget.ImageView
-import androidx.constraintlayout.widget.ConstraintLayout
-import com.parkjin.mlkit.R
+import android.widget.LinearLayout
+import android.widget.TextView
 
 class MainView @JvmOverloads constructor(
     context: Context,
     attributeSet: AttributeSet? = null,
     defStyle: Int = 0
-) : ConstraintLayout(context, attributeSet, defStyle) {
+) : LinearLayout(context, attributeSet, defStyle) {
 
-    private val button = Button(context).apply {
+    private val imgToLabel = ImageView(context).apply {
+        layoutParams = LayoutParams(
+            LayoutParams.MATCH_PARENT,
+            LayoutParams.WRAP_CONTENT
+        )
+        gravity = Gravity.CENTER
+        adjustViewBounds = true
+    }
+
+    private val btnTest = Button(context).apply {
         layoutParams = LayoutParams(
             LayoutParams.WRAP_CONTENT,
             LayoutParams.WRAP_CONTENT
         )
-        text = context.getString(R.string.button_text)
+        text = "Label Image"
+        gravity = Gravity.CENTER
     }
 
-    private val image = ImageView(context).apply {
+    private val txtOutput = TextView(context).apply {
         layoutParams = LayoutParams(
             LayoutParams.MATCH_PARENT,
-            LayoutParams.MATCH_PARENT
+            LayoutParams.WRAP_CONTENT
         )
+        setEms(10)
+        gravity = Gravity.START or Gravity.TOP
     }
 
     init {
@@ -34,15 +47,23 @@ class MainView @JvmOverloads constructor(
     }
 
     private fun initializeView() {
-        addView(button)
-        addView(image)
-    }
+        layoutParams = LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.MATCH_PARENT)
+        orientation = VERTICAL
 
-    fun setOnButtonClickListener(block: () -> Unit) {
-        button.setOnClickListener { block() }
+        addView(imgToLabel)
+        addView(btnTest)
+        addView(txtOutput)
     }
 
     fun setImageBitmap(bitmap: Bitmap) {
-        image.setImageBitmap(bitmap)
+        imgToLabel.setImageBitmap(bitmap)
+    }
+
+    fun setOnButtonClickListener(block: () -> Unit) {
+        btnTest.setOnClickListener { block() }
+    }
+
+    fun setOutputText(text: CharSequence) {
+        txtOutput.text = text
     }
 }

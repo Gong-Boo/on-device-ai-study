@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">object-detection</string>
+    <string name="detect_objects">detect objets</string>
+</resources>

@@ -6,3 +6,7 @@
 디지털 잉크 인식
 - https://developers.google.com/ml-kit/vision/digital-ink-recognition?hl=ko
 - https://developers.google.com/ml-kit/vision/digital-ink-recognition/android?hl=ko
+
+스마트 답장
+- https://developers.google.com/ml-kit/language/smart-reply?hl=ko
+- https://developers.google.com/ml-kit/language/smart-reply/android?hl=ko

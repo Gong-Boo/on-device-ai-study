@@ -9,7 +9,7 @@ import java.util.Locale
 import kotlin.coroutines.resume
 import kotlin.coroutines.resumeWithException
 
-object Extractor {
+class Extractor(private val onAvailableChange: (Boolean) -> Unit) {
 
     private val entityExtractor = EntityExtraction.getClient(
         EntityExtractorOptions
@@ -17,10 +17,18 @@ object Extractor {
             .build()
     )
 
-    private var extractorAvailable = false
+    private var available: Boolean = false
+        set(value) {
+            field = value
+            onAvailableChange(value)
+        }
+
+    init {
+        available = false
+    }
 
     suspend fun prepare() {
-        extractorAvailable = suspendCancellableCoroutine { coroutine ->
+        available = suspendCancellableCoroutine { coroutine ->
             entityExtractor.downloadModelIfNeeded()
                 .addOnSuccessListener { coroutine.resume(true) }
                 .addOnFailureListener { coroutine.resume(false) }
@@ -29,7 +37,7 @@ object Extractor {
     }
 
     suspend fun extract(input: String, locale: Locale = Locale.US): String? {
-        if (!extractorAvailable) return null
+        if (!available) return null
 
         val params = EntityExtractionParams.Builder(input)
             .setPreferredLocale(locale)

@@ -7,6 +7,7 @@ import androidx.lifecycle.lifecycleScope
 import com.parkjin.mlkit.extraction.ExtractionView
 import com.parkjin.mlkit.extraction.Extractor
 import com.parkjin.mlkit.recognition.RecognitionView
+import com.parkjin.mlkit.recognition.Recognizer
 import com.parkjin.mlkit.reply.ReplyView
 import kotlinx.coroutines.launch
 
@@ -21,7 +22,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        val view = getContentView(ViewType.EXTRACTION)
+        val view = getContentView(ViewType.RECOGNITION)
         setContentView(view)
         initializeView(view)
     }
@@ -44,17 +45,34 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun setExtractionView(view: ExtractionView) {
-        lifecycleScope.launch { Extractor.prepare() }
+        val extractor = Extractor { view.setExtractEnabled(it) }
+
+        lifecycleScope.launch { extractor.prepare() }
 
         view.setOnExtractClickListener {
             lifecycleScope.launch {
-                val output = Extractor.extract(view.getInputText())
+                val output = extractor.extract(view.getInputText())
                 view.setOutputText(output)
             }
         }
     }
 
     private fun setRecognitionView(view: RecognitionView) {
+        val recognizer = Recognizer { view.setClassifyEnabled(it) }
+
+        lifecycleScope.launch { recognizer.prepare() }
+
+        view.setOnClassifyClickListener {
+            lifecycleScope.launch {
+                val output = recognizer.recognize(view.getSurfaceInk())
+                view.setOutputText(output)
+            }
+        }
+
+        view.setOnClearClickListener {
+            view.clearSurface()
+            view.setOutputText("")
+        }
     }
 
     private fun setReplyView(view: ReplyView) {

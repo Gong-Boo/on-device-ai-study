@@ -41,6 +41,7 @@ dependencies {
 
     implementation 'com.google.android.material:material:1.8.0'
     implementation "com.google.mlkit:entity-extraction:16.0.0-beta4"
+    implementation "com.google.mlkit:digital-ink-recognition:18.1.0"
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'

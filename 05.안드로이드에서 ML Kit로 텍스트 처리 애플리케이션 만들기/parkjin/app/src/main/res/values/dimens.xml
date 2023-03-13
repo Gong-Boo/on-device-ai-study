@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="txt_input_height">240dp</dimen>
+    <dimen name="extraction_txt_input_height">240dp</dimen>
+
+    <dimen name="recognition_surface_height">200dp</dimen>
+    <dimen name="recognition_txt_output_height">150dp</dimen>
 </resources>

@@ -18,7 +18,7 @@ class ExtractionView @JvmOverloads constructor(
     private val txtInput = EditText(context).apply {
         layoutParams = LayoutParams(
             LayoutParams.MATCH_PARENT,
-            resources.getDimensionPixelSize(R.dimen.txt_input_height)
+            resources.getDimensionPixelSize(R.dimen.extraction_txt_input_height)
         )
         isSingleLine = false
         inputType = InputType.TYPE_TEXT_FLAG_MULTI_LINE
@@ -58,6 +58,10 @@ class ExtractionView @JvmOverloads constructor(
 
     fun setOnExtractClickListener(block: () -> Unit) {
         btnExtract.setOnClickListener { block() }
+    }
+
+    fun setExtractEnabled(isEnabled: Boolean) {
+        btnExtract.isEnabled = isEnabled
     }
 
     fun setOutputText(text: CharSequence?) {

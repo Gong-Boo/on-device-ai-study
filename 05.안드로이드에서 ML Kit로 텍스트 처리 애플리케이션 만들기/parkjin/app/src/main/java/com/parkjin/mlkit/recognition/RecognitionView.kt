@@ -1,4 +1,4 @@
-package com.parkjin.mlkit.ui.recognition
+package com.parkjin.mlkit.recognition
 
 import android.content.Context
 import android.util.AttributeSet

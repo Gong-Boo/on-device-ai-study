@@ -1,4 +1,4 @@
-package com.parkjin.mlkit.ui.extraction
+package com.parkjin.mlkit.extraction
 
 import android.content.Context
 import android.text.InputType
@@ -60,7 +60,7 @@ class ExtractionView @JvmOverloads constructor(
         btnExtract.setOnClickListener { block() }
     }
 
-    fun setOutputText(text: CharSequence) {
+    fun setOutputText(text: CharSequence?) {
         txtOutput.text = text
     }
 }

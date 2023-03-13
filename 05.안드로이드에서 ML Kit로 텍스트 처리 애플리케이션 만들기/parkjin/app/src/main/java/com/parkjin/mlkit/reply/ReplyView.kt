@@ -1,4 +1,4 @@
-package com.parkjin.mlkit.ui.reply
+package com.parkjin.mlkit.reply
 
 import android.content.Context
 import android.util.AttributeSet

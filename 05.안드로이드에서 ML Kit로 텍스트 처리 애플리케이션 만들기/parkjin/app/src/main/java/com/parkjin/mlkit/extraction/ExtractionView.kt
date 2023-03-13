@@ -60,10 +60,6 @@ class ExtractionView @JvmOverloads constructor(
         btnExtract.setOnClickListener { block() }
     }
 
-    fun setExtractEnabled(isEnabled: Boolean) {
-        btnExtract.isEnabled = isEnabled
-    }
-
     fun setOutputText(text: CharSequence?) {
         txtOutput.text = text
     }

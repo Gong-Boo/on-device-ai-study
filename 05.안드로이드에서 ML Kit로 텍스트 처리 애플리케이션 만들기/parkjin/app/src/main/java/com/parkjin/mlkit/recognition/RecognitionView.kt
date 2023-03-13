@@ -74,10 +74,6 @@ class RecognitionView @JvmOverloads constructor(
         btnClear.setOnClickListener { block() }
     }
 
-    fun setClassifyEnabled(isEnabled: Boolean) {
-        btnClassify.isEnabled = isEnabled
-    }
-
     fun setOutputText(text: CharSequence?) {
         txtOutput.text = text
     }

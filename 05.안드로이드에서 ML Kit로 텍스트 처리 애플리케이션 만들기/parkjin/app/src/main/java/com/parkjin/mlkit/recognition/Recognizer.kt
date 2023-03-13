@@ -12,20 +12,12 @@ import kotlinx.coroutines.suspendCancellableCoroutine
 import kotlin.coroutines.resume
 import kotlin.coroutines.resumeWithException
 
-class Recognizer(private val onAvailableChange: (Boolean) -> Unit) {
+class Recognizer {
 
     private val remoteModelManager = RemoteModelManager.getInstance()
     private var recognizer: DigitalInkRecognizer? = null
 
     private var available: Boolean = false
-        set(value) {
-            field = value
-            onAvailableChange(value)
-        }
-
-    init {
-        available = false
-    }
 
     suspend fun prepare(languageTag: String = "en-US") {
         val modelIdentifier = DigitalInkRecognitionModelIdentifier

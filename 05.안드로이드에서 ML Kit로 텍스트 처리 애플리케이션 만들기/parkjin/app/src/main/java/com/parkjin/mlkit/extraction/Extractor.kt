@@ -9,7 +9,7 @@ import java.util.Locale
 import kotlin.coroutines.resume
 import kotlin.coroutines.resumeWithException
 
-class Extractor(private val onAvailableChange: (Boolean) -> Unit) {
+class Extractor {
 
     private val entityExtractor = EntityExtraction.getClient(
         EntityExtractorOptions
@@ -18,14 +18,6 @@ class Extractor(private val onAvailableChange: (Boolean) -> Unit) {
     )
 
     private var available: Boolean = false
-        set(value) {
-            field = value
-            onAvailableChange(value)
-        }
-
-    init {
-        available = false
-    }
 
     suspend fun prepare() {
         available = suspendCancellableCoroutine { coroutine ->

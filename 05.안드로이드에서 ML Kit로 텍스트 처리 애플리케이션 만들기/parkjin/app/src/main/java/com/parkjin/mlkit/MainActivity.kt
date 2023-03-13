@@ -4,10 +4,12 @@ import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
+import com.google.mlkit.nl.smartreply.TextMessage
 import com.parkjin.mlkit.extraction.ExtractionView
 import com.parkjin.mlkit.extraction.Extractor
 import com.parkjin.mlkit.recognition.RecognitionView
 import com.parkjin.mlkit.recognition.Recognizer
+import com.parkjin.mlkit.reply.ReplyGenerator
 import com.parkjin.mlkit.reply.ReplyView
 import kotlinx.coroutines.launch
 
@@ -22,7 +24,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        val view = getContentView(ViewType.RECOGNITION)
+        val view = getContentView(ViewType.REPLY)
         setContentView(view)
         initializeView(view)
     }
@@ -45,7 +47,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun setExtractionView(view: ExtractionView) {
-        val extractor = Extractor { view.setExtractEnabled(it) }
+        val extractor = Extractor()
 
         lifecycleScope.launch { extractor.prepare() }
 
@@ -58,7 +60,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun setRecognitionView(view: RecognitionView) {
-        val recognizer = Recognizer { view.setClassifyEnabled(it) }
+        val recognizer = Recognizer()
 
         lifecycleScope.launch { recognizer.prepare() }
 
@@ -76,5 +78,37 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun setReplyView(view: ReplyView) {
+        val replyGenerator = ReplyGenerator()
+
+        val myName = "Me"
+        val youName = "Jin"
+
+        val messages = listOf(
+            "Hi, good morning!" to myName,
+            "Oh, hey -- how are you?" to youName,
+            "Just got up, thinking of heading out for breakfast" to myName,
+            "Want to meet up?" to youName,
+            "Sure, what do you fancy?" to myName,
+            "Just coffee, or do you want to eat?" to youName
+        )
+
+        val items = messages.map { (message, sender) ->
+            val isMine = sender == myName
+            if (isMine) {
+                TextMessage.createForLocalUser(message, System.currentTimeMillis())
+            } else {
+                TextMessage.createForRemoteUser(message, System.currentTimeMillis(), sender)
+            }
+        }
+
+        view.setOutputText(
+            messages.joinToString(separator = "\n") { (message, sender) -> "$sender : $message" }
+        )
+
+        view.setOnReplyClickListener {
+            lifecycleScope.launch {
+                view.setInputText(replyGenerator.generate(items))
+            }
+        }
     }
 }

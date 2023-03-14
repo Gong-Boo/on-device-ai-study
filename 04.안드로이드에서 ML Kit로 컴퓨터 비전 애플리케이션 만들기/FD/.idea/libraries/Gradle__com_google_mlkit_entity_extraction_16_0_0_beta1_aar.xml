@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.mlkit:entity-extraction:16.0.0-beta1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/e47b42ea054d9632ab18769a6677f3d9/transformed/entity-extraction-16.0.0-beta1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e47b42ea054d9632ab18769a6677f3d9/transformed/entity-extraction-16.0.0-beta1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e47b42ea054d9632ab18769a6677f3d9/transformed/entity-extraction-16.0.0-beta1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.mlkit/entity-extraction/16.0.0-beta1/58c34bb7eba85140dba85145f3ad56e51423cf6e/entity-extraction-16.0.0-beta1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

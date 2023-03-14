@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.mlkit:smart-reply:16.1.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/6efd4b4cd2764f4ed7ed5b19e59eafd9/transformed/smart-reply-16.1.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6efd4b4cd2764f4ed7ed5b19e59eafd9/transformed/smart-reply-16.1.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6efd4b4cd2764f4ed7ed5b19e59eafd9/transformed/smart-reply-16.1.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.mlkit/smart-reply/16.1.1/e4578ad2aad313649764097c9a13a3aeb43ac33e/smart-reply-16.1.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

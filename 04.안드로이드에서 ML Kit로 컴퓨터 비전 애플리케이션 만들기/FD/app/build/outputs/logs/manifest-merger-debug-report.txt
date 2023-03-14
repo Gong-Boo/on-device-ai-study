@@ -1,0 +1,799 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml:2:1-49:12
+INJECTED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml:2:1-49:12
+INJECTED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml:2:1-49:12
+INJECTED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml:2:1-49:12
+MERGED from [androidx.databinding:viewbinding:7.2.2] /Users/kimjw/.gradle/caches/transforms-3/99356657452459972d5394fc9fd6ead2/transformed/viewbinding-7.2.2/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.mlkit:face-detection:16.0.2] /Users/kimjw/.gradle/caches/transforms-3/ae22d8f4231ce302f74e5507b59c8bbd/transformed/face-detection-16.0.2/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.mlkit:object-detection:17.0.0] /Users/kimjw/.gradle/caches/transforms-3/8c4de9abb749b48646f4841a25a329b7/transformed/object-detection-17.0.0/AndroidManifest.xml:2:1-20:12
+MERGED from [com.google.mlkit:image-labeling:17.0.7] /Users/kimjw/.gradle/caches/transforms-3/00d890d80487a0c83ea63f98c2e363be/transformed/image-labeling-17.0.7/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.mlkit:entity-extraction:16.0.0-beta1] /Users/kimjw/.gradle/caches/transforms-3/e47b42ea054d9632ab18769a6677f3d9/transformed/entity-extraction-16.0.0-beta1/AndroidManifest.xml:2:1-20:12
+MERGED from [com.google.mlkit:digital-ink-recognition:16.1.0] /Users/kimjw/.gradle/caches/transforms-3/b0e1fbe30dc5b2dd158411f029a81c28/transformed/digital-ink-recognition-16.1.0/AndroidManifest.xml:2:1-21:12
+MERGED from [com.google.mlkit:smart-reply:16.1.1] /Users/kimjw/.gradle/caches/transforms-3/6efd4b4cd2764f4ed7ed5b19e59eafd9/transformed/smart-reply-16.1.1/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.fragment:fragment-ktx:1.3.6] /Users/kimjw/.gradle/caches/transforms-3/c911611bbbc24f5c977c909942fcb38e/transformed/fragment-ktx-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.2.2] /Users/kimjw/.gradle/caches/transforms-3/8e70074806c1b24b7f630a8a9dd0d871/transformed/activity-ktx-1.2.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.7.0] /Users/kimjw/.gradle/caches/transforms-3/9aed8fdf4a983149ca56aaaab05b646a/transformed/core-ktx-1.7.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] /Users/kimjw/.gradle/caches/transforms-3/d1718aaa47ee88c7b6d406bebb1f9660/transformed/lifecycle-livedata-core-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] /Users/kimjw/.gradle/caches/transforms-3/89b0885a4afdc1439f0af6462d3799c0/transformed/lifecycle-viewmodel-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /Users/kimjw/.gradle/caches/transforms-3/22fc7f5161232e310ca9f54634b074db/transformed/savedstate-ktx-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] /Users/kimjw/.gradle/caches/transforms-3/e70288018ec95f5a0f1c7278836de5e7/transformed/lifecycle-runtime-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.4.0] /Users/kimjw/.gradle/caches/transforms-3/45828fa8aa0b9348bcbaf27287a12366/transformed/material-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/kimjw/.gradle/caches/transforms-3/d7bbf4c4a40fb465623859ff058e84c5/transformed/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.textclassifier:textclassifier:1.0.0-alpha03] /Users/kimjw/.gradle/caches/transforms-3/ccddd7e0df3053952bb971ea80c7a15b/transformed/textclassifier-1.0.0-alpha03/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/kimjw/.gradle/caches/transforms-3/36b587862ffd7aa0dffc766f47fa0e3e/transformed/appcompat-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:16.1.1] /Users/kimjw/.gradle/caches/transforms-3/7957afd19402a64492fb6334f8e2a4d3/transformed/play-services-mlkit-face-detection-16.1.1/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:object-detection-common:18.0.0] /Users/kimjw/.gradle/caches/transforms-3/9c392cca5a64db002bcca11c18a2295f/transformed/object-detection-common-18.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/kimjw/.gradle/caches/transforms-3/96a6475ecd1cbb276859566048f29dc2/transformed/vision-internal-vkp-18.2.2/AndroidManifest.xml:2:1-20:12
+MERGED from [com.google.mlkit:image-labeling-default-common:17.0.0] /Users/kimjw/.gradle/caches/transforms-3/90c6a2b7ecdba1dae184b9cc5dad7c33/transformed/image-labeling-default-common-17.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:image-labeling-common:18.0.0] /Users/kimjw/.gradle/caches/transforms-3/a3db052be2afa96bc5372e6f6d92eebd/transformed/image-labeling-common-18.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:vision-common:17.0.0] /Users/kimjw/.gradle/caches/transforms-3/3deae63fc1510abd36d82405bff44826/transformed/vision-common-17.0.0/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:language-id:16.1.1] /Users/kimjw/.gradle/caches/transforms-3/6913b807dc6009718f570ec81b23678c/transformed/language-id-16.1.1/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.mlkit:common:18.0.0] /Users/kimjw/.gradle/caches/transforms-3/f78124a519b5abfb06eff88f77fcd1ec/transformed/common-18.0.0/AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/kimjw/.gradle/caches/transforms-3/bf12775cc5fcf4b2a9e007d7f7381cc6/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/kimjw/.gradle/caches/transforms-3/a11d654e57306c247bdb46541947a33b/transformed/transport-runtime-2.2.6/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] /Users/kimjw/.gradle/caches/transforms-3/701c74211d6c0ddf59c44caf4e91b397/transformed/transport-api-2.2.1/AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.firebase:firebase-components:16.1.0] /Users/kimjw/.gradle/caches/transforms-3/f8cf4111b6e285f809c4dd3062581aa2/transformed/firebase-components-16.1.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] /Users/kimjw/.gradle/caches/transforms-3/e50b03aa3f1fd7a267d5ad89e3958135/transformed/firebase-encoders-json-17.1.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.gms:play-services-vision-face-contour-internal:16.0.3] /Users/kimjw/.gradle/caches/transforms-3/e419940f59a18d3cf7bb70cd83da2fbd/transformed/play-services-vision-face-contour-internal-16.0.3/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision:20.1.2] /Users/kimjw/.gradle/caches/transforms-3/19a971861432b002b9c059245771400e/transformed/play-services-vision-20.1.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.2] /Users/kimjw/.gradle/caches/transforms-3/65ca6dc590ad4c8823b24689e837712c/transformed/play-services-vision-common-19.1.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/kimjw/.gradle/caches/transforms-3/19381226103095212653238fc79ca9a8/transformed/play-services-clearcut-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/kimjw/.gradle/caches/transforms-3/9bcd2d51b43d325d57950ef56c281b9f/transformed/play-services-phenotype-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] /Users/kimjw/.gradle/caches/transforms-3/768921f607524dd6b5347c09a2c0e2dc/transformed/play-services-flags-17.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/kimjw/.gradle/caches/transforms-3/758d62629a5d8258cbd47bc94d203b55/transformed/play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.mlkit:vision-interfaces:16.0.0] /Users/kimjw/.gradle/caches/transforms-3/20cc88a1818260a07e7a2799e1f781ad/transformed/vision-interfaces-16.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/kimjw/.gradle/caches/transforms-3/aa459e305713e7cdf0626c1259edc5c9/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/kimjw/.gradle/caches/transforms-3/9edfc1b32eeb7e838c28a2c0e61d77a9/transformed/play-services-basement-18.0.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:17:1-125:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /Users/kimjw/.gradle/caches/transforms-3/59deb45e82ad42d26fa240c80777931d/transformed/lifecycle-extensions-2.1.0/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/kimjw/.gradle/caches/transforms-3/39d86499b2df5710efb41e798446d941/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/kimjw/.gradle/caches/transforms-3/2fee84ce99728401b49e699b68198397/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /Users/kimjw/.gradle/caches/transforms-3/b5428e853c2d408dd2934edb55affac9/transformed/appcompat-resources-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/kimjw/.gradle/caches/transforms-3/e3ed8cf5a3ccf146a0777a43fd68c84d/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/kimjw/.gradle/caches/transforms-3/ad6dc95340b171e84c4ad5205ef31393/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/kimjw/.gradle/caches/transforms-3/97606c10bfcb34d8238bd3c5f3c5ee66/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/kimjw/.gradle/caches/transforms-3/e89f6667b25ffd1e670d2a33688ccd32/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/kimjw/.gradle/caches/transforms-3/1cbd011c3c79b09f73786a9394ff1d25/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/kimjw/.gradle/caches/transforms-3/a6c2f42b601cff490190ba27a74071ea/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-runtime:2.1.0] /Users/kimjw/.gradle/caches/transforms-3/a00622f768f311280de9960ab1089357/transformed/room-runtime-2.1.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.activity:activity:1.2.4] /Users/kimjw/.gradle/caches/transforms-3/40d6bbf225defc3004a186228be097e6/transformed/activity-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/kimjw/.gradle/caches/transforms-3/22e43e53ae6f241a8207f0c4c1d3eca2/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/kimjw/.gradle/caches/transforms-3/864d17286c0648734282e20b1f767e3c/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/kimjw/.gradle/caches/transforms-3/4e687c133cd9045696daa19214a6535c/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/kimjw/.gradle/caches/transforms-3/025ae0e8e070532a925b968a91c2dcd3/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/kimjw/.gradle/caches/transforms-3/1cfdca0a52d476a8f2d6fbf7867352e3/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.7.0] /Users/kimjw/.gradle/caches/transforms-3/d1226069d146bfdbef2e62a7e382f846/transformed/core-1.7.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/kimjw/.gradle/caches/transforms-3/944f278a1c6f1b0e45f50820d68c4b1e/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/kimjw/.gradle/caches/transforms-3/c4636bd196fd582af56cd975dfd0ad97/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/kimjw/.gradle/caches/transforms-3/8467916821eec7ed9f67870391f24e64/transformed/savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/kimjw/.gradle/caches/transforms-3/90fce9c3ebb4782128193c3634ef7bae/transformed/lifecycle-process-2.1.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /Users/kimjw/.gradle/caches/transforms-3/24e0820f9a189ceffb26dc67b8afe6fe/transformed/lifecycle-service-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/kimjw/.gradle/caches/transforms-3/e3bf41c29559476e190b92f331dade28/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/kimjw/.gradle/caches/transforms-3/30d73f64a06bad2247d99c2121a73fe8/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/kimjw/.gradle/caches/transforms-3/b61d68b331896ea26f23fd544338c1eb/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /Users/kimjw/.gradle/caches/transforms-3/c6788f277abd588eaf27ef12f18493ba/transformed/lifecycle-livedata-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/kimjw/.gradle/caches/transforms-3/dbd726f71f367d1b2e628d962512265c/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/kimjw/.gradle/caches/transforms-3/8c44cfbdeee2a652a2edc2eb95479194/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/kimjw/.gradle/caches/transforms-3/9ef67dc3576f4b585a720dcc2507aa55/transformed/exifinterface-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/kimjw/.gradle/caches/transforms-3/3367f2aef9957f33c0ae437b02a9c6b3/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /Users/kimjw/.gradle/caches/transforms-3/959abd32dc794183d0a5622cbfa0d557/transformed/sqlite-framework-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.0.1] /Users/kimjw/.gradle/caches/transforms-3/5894c3d9f6f74dbf9d8cbdea2bf1209e/transformed/sqlite-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/kimjw/.gradle/caches/transforms-3/5b87d3a5c23a3888cf91c6e6e1911d15/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/kimjw/.gradle/caches/transforms-3/3796dee342b241c42166492d7a84105a/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/kimjw/.gradle/caches/transforms-3/21d999d2482d5176fe1e8f8335d649f6/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/kimjw/.gradle/caches/transforms-3/cf75896d21978a6e2d6dcd44588d889b/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/kimjw/.gradle/caches/transforms-3/6f784ec98e20dba0ba6566870c016b4c/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/kimjw/.gradle/caches/transforms-3/e273be70d1f54d1dd07f759b7827c3b3/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/kimjw/.gradle/caches/transforms-3/12b52ab2cc0dfb37ab9deedbb8c127e8/transformed/image-1.0.0-beta1/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml:2:1-49:12
+INJECTED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml:2:1-49:12
+INJECTED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml:2:1-49:12
+	package
+		ADDED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml:4:5-29
+		INJECTED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml
+		ADDED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml:2:1-49:12
+		INJECTED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml
+		ADDED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml:2:1-49:12
+		INJECTED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml:6:5-79
+MERGED from [com.google.mlkit:object-detection:17.0.0] /Users/kimjw/.gradle/caches/transforms-3/8c4de9abb749b48646f4841a25a329b7/transformed/object-detection-17.0.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.mlkit:object-detection:17.0.0] /Users/kimjw/.gradle/caches/transforms-3/8c4de9abb749b48646f4841a25a329b7/transformed/object-detection-17.0.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.mlkit:entity-extraction:16.0.0-beta1] /Users/kimjw/.gradle/caches/transforms-3/e47b42ea054d9632ab18769a6677f3d9/transformed/entity-extraction-16.0.0-beta1/AndroidManifest.xml:7:5-79
+MERGED from [com.google.mlkit:entity-extraction:16.0.0-beta1] /Users/kimjw/.gradle/caches/transforms-3/e47b42ea054d9632ab18769a6677f3d9/transformed/entity-extraction-16.0.0-beta1/AndroidManifest.xml:7:5-79
+MERGED from [com.google.mlkit:digital-ink-recognition:16.1.0] /Users/kimjw/.gradle/caches/transforms-3/b0e1fbe30dc5b2dd158411f029a81c28/transformed/digital-ink-recognition-16.1.0/AndroidManifest.xml:8:5-79
+MERGED from [com.google.mlkit:digital-ink-recognition:16.1.0] /Users/kimjw/.gradle/caches/transforms-3/b0e1fbe30dc5b2dd158411f029a81c28/transformed/digital-ink-recognition-16.1.0/AndroidManifest.xml:8:5-79
+MERGED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/kimjw/.gradle/caches/transforms-3/96a6475ecd1cbb276859566048f29dc2/transformed/vision-internal-vkp-18.2.2/AndroidManifest.xml:7:5-79
+MERGED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/kimjw/.gradle/caches/transforms-3/96a6475ecd1cbb276859566048f29dc2/transformed/vision-internal-vkp-18.2.2/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/kimjw/.gradle/caches/transforms-3/bf12775cc5fcf4b2a9e007d7f7381cc6/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/kimjw/.gradle/caches/transforms-3/bf12775cc5fcf4b2a9e007d7f7381cc6/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/kimjw/.gradle/caches/transforms-3/a11d654e57306c247bdb46541947a33b/transformed/transport-runtime-2.2.6/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/kimjw/.gradle/caches/transforms-3/a11d654e57306c247bdb46541947a33b/transformed/transport-runtime-2.2.6/AndroidManifest.xml:22:5-79
+MERGED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:26:5-79
+MERGED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml:6:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml:7:5-67
+MERGED from [com.google.mlkit:object-detection:17.0.0] /Users/kimjw/.gradle/caches/transforms-3/8c4de9abb749b48646f4841a25a329b7/transformed/object-detection-17.0.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.mlkit:object-detection:17.0.0] /Users/kimjw/.gradle/caches/transforms-3/8c4de9abb749b48646f4841a25a329b7/transformed/object-detection-17.0.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.mlkit:entity-extraction:16.0.0-beta1] /Users/kimjw/.gradle/caches/transforms-3/e47b42ea054d9632ab18769a6677f3d9/transformed/entity-extraction-16.0.0-beta1/AndroidManifest.xml:8:5-67
+MERGED from [com.google.mlkit:entity-extraction:16.0.0-beta1] /Users/kimjw/.gradle/caches/transforms-3/e47b42ea054d9632ab18769a6677f3d9/transformed/entity-extraction-16.0.0-beta1/AndroidManifest.xml:8:5-67
+MERGED from [com.google.mlkit:digital-ink-recognition:16.1.0] /Users/kimjw/.gradle/caches/transforms-3/b0e1fbe30dc5b2dd158411f029a81c28/transformed/digital-ink-recognition-16.1.0/AndroidManifest.xml:9:5-67
+MERGED from [com.google.mlkit:digital-ink-recognition:16.1.0] /Users/kimjw/.gradle/caches/transforms-3/b0e1fbe30dc5b2dd158411f029a81c28/transformed/digital-ink-recognition-16.1.0/AndroidManifest.xml:9:5-67
+MERGED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/kimjw/.gradle/caches/transforms-3/96a6475ecd1cbb276859566048f29dc2/transformed/vision-internal-vkp-18.2.2/AndroidManifest.xml:8:5-67
+MERGED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/kimjw/.gradle/caches/transforms-3/96a6475ecd1cbb276859566048f29dc2/transformed/vision-internal-vkp-18.2.2/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/kimjw/.gradle/caches/transforms-3/bf12775cc5fcf4b2a9e007d7f7381cc6/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/kimjw/.gradle/caches/transforms-3/bf12775cc5fcf4b2a9e007d7f7381cc6/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml:7:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml:8:22-78
+application
+ADDED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml:10:5-47:19
+MERGED from [com.google.mlkit:object-detection:17.0.0] /Users/kimjw/.gradle/caches/transforms-3/8c4de9abb749b48646f4841a25a329b7/transformed/object-detection-17.0.0/AndroidManifest.xml:10:5-18:19
+MERGED from [com.google.mlkit:object-detection:17.0.0] /Users/kimjw/.gradle/caches/transforms-3/8c4de9abb749b48646f4841a25a329b7/transformed/object-detection-17.0.0/AndroidManifest.xml:10:5-18:19
+MERGED from [com.google.mlkit:image-labeling:17.0.7] /Users/kimjw/.gradle/caches/transforms-3/00d890d80487a0c83ea63f98c2e363be/transformed/image-labeling-17.0.7/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:image-labeling:17.0.7] /Users/kimjw/.gradle/caches/transforms-3/00d890d80487a0c83ea63f98c2e363be/transformed/image-labeling-17.0.7/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:entity-extraction:16.0.0-beta1] /Users/kimjw/.gradle/caches/transforms-3/e47b42ea054d9632ab18769a6677f3d9/transformed/entity-extraction-16.0.0-beta1/AndroidManifest.xml:10:5-18:19
+MERGED from [com.google.mlkit:entity-extraction:16.0.0-beta1] /Users/kimjw/.gradle/caches/transforms-3/e47b42ea054d9632ab18769a6677f3d9/transformed/entity-extraction-16.0.0-beta1/AndroidManifest.xml:10:5-18:19
+MERGED from [com.google.mlkit:digital-ink-recognition:16.1.0] /Users/kimjw/.gradle/caches/transforms-3/b0e1fbe30dc5b2dd158411f029a81c28/transformed/digital-ink-recognition-16.1.0/AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.mlkit:digital-ink-recognition:16.1.0] /Users/kimjw/.gradle/caches/transforms-3/b0e1fbe30dc5b2dd158411f029a81c28/transformed/digital-ink-recognition-16.1.0/AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.mlkit:smart-reply:16.1.1] /Users/kimjw/.gradle/caches/transforms-3/6efd4b4cd2764f4ed7ed5b19e59eafd9/transformed/smart-reply-16.1.1/AndroidManifest.xml:22:5-33:19
+MERGED from [com.google.mlkit:smart-reply:16.1.1] /Users/kimjw/.gradle/caches/transforms-3/6efd4b4cd2764f4ed7ed5b19e59eafd9/transformed/smart-reply-16.1.1/AndroidManifest.xml:22:5-33:19
+MERGED from [com.google.android.material:material:1.4.0] /Users/kimjw/.gradle/caches/transforms-3/45828fa8aa0b9348bcbaf27287a12366/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.4.0] /Users/kimjw/.gradle/caches/transforms-3/45828fa8aa0b9348bcbaf27287a12366/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/kimjw/.gradle/caches/transforms-3/d7bbf4c4a40fb465623859ff058e84c5/transformed/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/kimjw/.gradle/caches/transforms-3/d7bbf4c4a40fb465623859ff058e84c5/transformed/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:16.1.1] /Users/kimjw/.gradle/caches/transforms-3/7957afd19402a64492fb6334f8e2a4d3/transformed/play-services-mlkit-face-detection-16.1.1/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:16.1.1] /Users/kimjw/.gradle/caches/transforms-3/7957afd19402a64492fb6334f8e2a4d3/transformed/play-services-mlkit-face-detection-16.1.1/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/kimjw/.gradle/caches/transforms-3/96a6475ecd1cbb276859566048f29dc2/transformed/vision-internal-vkp-18.2.2/AndroidManifest.xml:10:5-18:19
+MERGED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/kimjw/.gradle/caches/transforms-3/96a6475ecd1cbb276859566048f29dc2/transformed/vision-internal-vkp-18.2.2/AndroidManifest.xml:10:5-18:19
+MERGED from [com.google.mlkit:vision-common:17.0.0] /Users/kimjw/.gradle/caches/transforms-3/3deae63fc1510abd36d82405bff44826/transformed/vision-common-17.0.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:vision-common:17.0.0] /Users/kimjw/.gradle/caches/transforms-3/3deae63fc1510abd36d82405bff44826/transformed/vision-common-17.0.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:language-id:16.1.1] /Users/kimjw/.gradle/caches/transforms-3/6913b807dc6009718f570ec81b23678c/transformed/language-id-16.1.1/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:language-id:16.1.1] /Users/kimjw/.gradle/caches/transforms-3/6913b807dc6009718f570ec81b23678c/transformed/language-id-16.1.1/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:common:18.0.0] /Users/kimjw/.gradle/caches/transforms-3/f78124a519b5abfb06eff88f77fcd1ec/transformed/common-18.0.0/AndroidManifest.xml:8:5-24:19
+MERGED from [com.google.mlkit:common:18.0.0] /Users/kimjw/.gradle/caches/transforms-3/f78124a519b5abfb06eff88f77fcd1ec/transformed/common-18.0.0/AndroidManifest.xml:8:5-24:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/kimjw/.gradle/caches/transforms-3/bf12775cc5fcf4b2a9e007d7f7381cc6/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/kimjw/.gradle/caches/transforms-3/bf12775cc5fcf4b2a9e007d7f7381cc6/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/kimjw/.gradle/caches/transforms-3/a11d654e57306c247bdb46541947a33b/transformed/transport-runtime-2.2.6/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/kimjw/.gradle/caches/transforms-3/a11d654e57306c247bdb46541947a33b/transformed/transport-runtime-2.2.6/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.gms:play-services-vision-face-contour-internal:16.0.3] /Users/kimjw/.gradle/caches/transforms-3/e419940f59a18d3cf7bb70cd83da2fbd/transformed/play-services-vision-face-contour-internal-16.0.3/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-face-contour-internal:16.0.3] /Users/kimjw/.gradle/caches/transforms-3/e419940f59a18d3cf7bb70cd83da2fbd/transformed/play-services-vision-face-contour-internal-16.0.3/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:20.1.2] /Users/kimjw/.gradle/caches/transforms-3/19a971861432b002b9c059245771400e/transformed/play-services-vision-20.1.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:20.1.2] /Users/kimjw/.gradle/caches/transforms-3/19a971861432b002b9c059245771400e/transformed/play-services-vision-20.1.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.2] /Users/kimjw/.gradle/caches/transforms-3/65ca6dc590ad4c8823b24689e837712c/transformed/play-services-vision-common-19.1.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.2] /Users/kimjw/.gradle/caches/transforms-3/65ca6dc590ad4c8823b24689e837712c/transformed/play-services-vision-common-19.1.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/kimjw/.gradle/caches/transforms-3/19381226103095212653238fc79ca9a8/transformed/play-services-clearcut-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/kimjw/.gradle/caches/transforms-3/19381226103095212653238fc79ca9a8/transformed/play-services-clearcut-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/kimjw/.gradle/caches/transforms-3/9bcd2d51b43d325d57950ef56c281b9f/transformed/play-services-phenotype-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/kimjw/.gradle/caches/transforms-3/9bcd2d51b43d325d57950ef56c281b9f/transformed/play-services-phenotype-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/kimjw/.gradle/caches/transforms-3/758d62629a5d8258cbd47bc94d203b55/transformed/play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/kimjw/.gradle/caches/transforms-3/758d62629a5d8258cbd47bc94d203b55/transformed/play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/kimjw/.gradle/caches/transforms-3/aa459e305713e7cdf0626c1259edc5c9/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/kimjw/.gradle/caches/transforms-3/aa459e305713e7cdf0626c1259edc5c9/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/kimjw/.gradle/caches/transforms-3/9edfc1b32eeb7e838c28a2c0e61d77a9/transformed/play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/kimjw/.gradle/caches/transforms-3/9edfc1b32eeb7e838c28a2c0e61d77a9/transformed/play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:29:5-123:19
+MERGED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:29:5-123:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /Users/kimjw/.gradle/caches/transforms-3/59deb45e82ad42d26fa240c80777931d/transformed/lifecycle-extensions-2.1.0/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /Users/kimjw/.gradle/caches/transforms-3/59deb45e82ad42d26fa240c80777931d/transformed/lifecycle-extensions-2.1.0/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.room:room-runtime:2.1.0] /Users/kimjw/.gradle/caches/transforms-3/a00622f768f311280de9960ab1089357/transformed/room-runtime-2.1.0/AndroidManifest.xml:24:5-28:19
+MERGED from [androidx.room:room-runtime:2.1.0] /Users/kimjw/.gradle/caches/transforms-3/a00622f768f311280de9960ab1089357/transformed/room-runtime-2.1.0/AndroidManifest.xml:24:5-28:19
+MERGED from [androidx.core:core:1.7.0] /Users/kimjw/.gradle/caches/transforms-3/d1226069d146bfdbef2e62a7e382f846/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] /Users/kimjw/.gradle/caches/transforms-3/d1226069d146bfdbef2e62a7e382f846/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/kimjw/.gradle/caches/transforms-3/90fce9c3ebb4782128193c3634ef7bae/transformed/lifecycle-process-2.1.0/AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/kimjw/.gradle/caches/transforms-3/90fce9c3ebb4782128193c3634ef7bae/transformed/lifecycle-process-2.1.0/AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/kimjw/.gradle/caches/transforms-3/3367f2aef9957f33c0ae437b02a9c6b3/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/kimjw/.gradle/caches/transforms-3/3367f2aef9957f33c0ae437b02a9c6b3/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/kimjw/.gradle/caches/transforms-3/12b52ab2cc0dfb37ab9deedbb8c127e8/transformed/image-1.0.0-beta1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/kimjw/.gradle/caches/transforms-3/12b52ab2cc0dfb37ab9deedbb8c127e8/transformed/image-1.0.0-beta1/AndroidManifest.xml:7:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.7.0] /Users/kimjw/.gradle/caches/transforms-3/d1226069d146bfdbef2e62a7e382f846/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml:17:9-35
+	android:label
+		ADDED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml:15:9-41
+	android:fullBackupContent
+		ADDED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml:13:9-54
+	android:roundIcon
+		ADDED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml:16:9-54
+	tools:targetApi
+		ADDED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml:19:9-29
+	android:icon
+		ADDED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml:14:9-43
+	android:allowBackup
+		ADDED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml:11:9-35
+	android:theme
+		ADDED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml:18:9-40
+	android:dataExtractionRules
+		ADDED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml:12:9-65
+activity#com.paytest.fd.SmartReplyActivity
+ADDED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml:20:9-28:20
+	android:exported
+		ADDED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml:22:13-36
+	android:name
+		ADDED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml:21:13-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml:23:13-27:29
+action#android.intent.action.MAIN
+ADDED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml:24:17-69
+	android:name
+		ADDED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml:24:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml:26:17-77
+	android:name
+		ADDED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml:26:27-74
+activity#com.paytest.fd.HandWriteActivity
+ADDED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml:29:9-31:40
+	android:exported
+		ADDED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml:30:13-46
+activity#com.paytest.fd.EntityActivity
+ADDED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml:33:13-43
+activity#com.paytest.fd.ObjectDetectActivity
+ADDED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml:35:9-39:20
+	android:exported
+		ADDED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml:37:13-36
+	android:name
+		ADDED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml:36:13-49
+activity#com.paytest.fd.ImageLableActivity
+ADDED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml:40:9-43:59
+	android:exported
+		ADDED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml:42:13-36
+	android:theme
+		ADDED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml:43:13-56
+	android:name
+		ADDED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml:41:13-47
+activity#com.paytest.fd.MainActivity
+ADDED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml:44:9-46:39
+	android:exported
+		ADDED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml:46:13-36
+	android:name
+		ADDED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml:45:13-41
+uses-sdk
+INJECTED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml
+INJECTED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:7.2.2] /Users/kimjw/.gradle/caches/transforms-3/99356657452459972d5394fc9fd6ead2/transformed/viewbinding-7.2.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:viewbinding:7.2.2] /Users/kimjw/.gradle/caches/transforms-3/99356657452459972d5394fc9fd6ead2/transformed/viewbinding-7.2.2/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.mlkit:face-detection:16.0.2] /Users/kimjw/.gradle/caches/transforms-3/ae22d8f4231ce302f74e5507b59c8bbd/transformed/face-detection-16.0.2/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:face-detection:16.0.2] /Users/kimjw/.gradle/caches/transforms-3/ae22d8f4231ce302f74e5507b59c8bbd/transformed/face-detection-16.0.2/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:object-detection:17.0.0] /Users/kimjw/.gradle/caches/transforms-3/8c4de9abb749b48646f4841a25a329b7/transformed/object-detection-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:object-detection:17.0.0] /Users/kimjw/.gradle/caches/transforms-3/8c4de9abb749b48646f4841a25a329b7/transformed/object-detection-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:image-labeling:17.0.7] /Users/kimjw/.gradle/caches/transforms-3/00d890d80487a0c83ea63f98c2e363be/transformed/image-labeling-17.0.7/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:image-labeling:17.0.7] /Users/kimjw/.gradle/caches/transforms-3/00d890d80487a0c83ea63f98c2e363be/transformed/image-labeling-17.0.7/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:entity-extraction:16.0.0-beta1] /Users/kimjw/.gradle/caches/transforms-3/e47b42ea054d9632ab18769a6677f3d9/transformed/entity-extraction-16.0.0-beta1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:entity-extraction:16.0.0-beta1] /Users/kimjw/.gradle/caches/transforms-3/e47b42ea054d9632ab18769a6677f3d9/transformed/entity-extraction-16.0.0-beta1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:digital-ink-recognition:16.1.0] /Users/kimjw/.gradle/caches/transforms-3/b0e1fbe30dc5b2dd158411f029a81c28/transformed/digital-ink-recognition-16.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:digital-ink-recognition:16.1.0] /Users/kimjw/.gradle/caches/transforms-3/b0e1fbe30dc5b2dd158411f029a81c28/transformed/digital-ink-recognition-16.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:smart-reply:16.1.1] /Users/kimjw/.gradle/caches/transforms-3/6efd4b4cd2764f4ed7ed5b19e59eafd9/transformed/smart-reply-16.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.mlkit:smart-reply:16.1.1] /Users/kimjw/.gradle/caches/transforms-3/6efd4b4cd2764f4ed7ed5b19e59eafd9/transformed/smart-reply-16.1.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.3.6] /Users/kimjw/.gradle/caches/transforms-3/c911611bbbc24f5c977c909942fcb38e/transformed/fragment-ktx-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.3.6] /Users/kimjw/.gradle/caches/transforms-3/c911611bbbc24f5c977c909942fcb38e/transformed/fragment-ktx-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.2.2] /Users/kimjw/.gradle/caches/transforms-3/8e70074806c1b24b7f630a8a9dd0d871/transformed/activity-ktx-1.2.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.2.2] /Users/kimjw/.gradle/caches/transforms-3/8e70074806c1b24b7f630a8a9dd0d871/transformed/activity-ktx-1.2.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.7.0] /Users/kimjw/.gradle/caches/transforms-3/9aed8fdf4a983149ca56aaaab05b646a/transformed/core-ktx-1.7.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.7.0] /Users/kimjw/.gradle/caches/transforms-3/9aed8fdf4a983149ca56aaaab05b646a/transformed/core-ktx-1.7.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] /Users/kimjw/.gradle/caches/transforms-3/d1718aaa47ee88c7b6d406bebb1f9660/transformed/lifecycle-livedata-core-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] /Users/kimjw/.gradle/caches/transforms-3/d1718aaa47ee88c7b6d406bebb1f9660/transformed/lifecycle-livedata-core-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] /Users/kimjw/.gradle/caches/transforms-3/89b0885a4afdc1439f0af6462d3799c0/transformed/lifecycle-viewmodel-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] /Users/kimjw/.gradle/caches/transforms-3/89b0885a4afdc1439f0af6462d3799c0/transformed/lifecycle-viewmodel-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /Users/kimjw/.gradle/caches/transforms-3/22fc7f5161232e310ca9f54634b074db/transformed/savedstate-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /Users/kimjw/.gradle/caches/transforms-3/22fc7f5161232e310ca9f54634b074db/transformed/savedstate-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] /Users/kimjw/.gradle/caches/transforms-3/e70288018ec95f5a0f1c7278836de5e7/transformed/lifecycle-runtime-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] /Users/kimjw/.gradle/caches/transforms-3/e70288018ec95f5a0f1c7278836de5e7/transformed/lifecycle-runtime-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.4.0] /Users/kimjw/.gradle/caches/transforms-3/45828fa8aa0b9348bcbaf27287a12366/transformed/material-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.4.0] /Users/kimjw/.gradle/caches/transforms-3/45828fa8aa0b9348bcbaf27287a12366/transformed/material-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/kimjw/.gradle/caches/transforms-3/d7bbf4c4a40fb465623859ff058e84c5/transformed/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/kimjw/.gradle/caches/transforms-3/d7bbf4c4a40fb465623859ff058e84c5/transformed/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.textclassifier:textclassifier:1.0.0-alpha03] /Users/kimjw/.gradle/caches/transforms-3/ccddd7e0df3053952bb971ea80c7a15b/transformed/textclassifier-1.0.0-alpha03/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.textclassifier:textclassifier:1.0.0-alpha03] /Users/kimjw/.gradle/caches/transforms-3/ccddd7e0df3053952bb971ea80c7a15b/transformed/textclassifier-1.0.0-alpha03/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/kimjw/.gradle/caches/transforms-3/36b587862ffd7aa0dffc766f47fa0e3e/transformed/appcompat-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/kimjw/.gradle/caches/transforms-3/36b587862ffd7aa0dffc766f47fa0e3e/transformed/appcompat-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:16.1.1] /Users/kimjw/.gradle/caches/transforms-3/7957afd19402a64492fb6334f8e2a4d3/transformed/play-services-mlkit-face-detection-16.1.1/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:16.1.1] /Users/kimjw/.gradle/caches/transforms-3/7957afd19402a64492fb6334f8e2a4d3/transformed/play-services-mlkit-face-detection-16.1.1/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:object-detection-common:18.0.0] /Users/kimjw/.gradle/caches/transforms-3/9c392cca5a64db002bcca11c18a2295f/transformed/object-detection-common-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:object-detection-common:18.0.0] /Users/kimjw/.gradle/caches/transforms-3/9c392cca5a64db002bcca11c18a2295f/transformed/object-detection-common-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/kimjw/.gradle/caches/transforms-3/96a6475ecd1cbb276859566048f29dc2/transformed/vision-internal-vkp-18.2.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/kimjw/.gradle/caches/transforms-3/96a6475ecd1cbb276859566048f29dc2/transformed/vision-internal-vkp-18.2.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:image-labeling-default-common:17.0.0] /Users/kimjw/.gradle/caches/transforms-3/90c6a2b7ecdba1dae184b9cc5dad7c33/transformed/image-labeling-default-common-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:image-labeling-default-common:17.0.0] /Users/kimjw/.gradle/caches/transforms-3/90c6a2b7ecdba1dae184b9cc5dad7c33/transformed/image-labeling-default-common-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:image-labeling-common:18.0.0] /Users/kimjw/.gradle/caches/transforms-3/a3db052be2afa96bc5372e6f6d92eebd/transformed/image-labeling-common-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:image-labeling-common:18.0.0] /Users/kimjw/.gradle/caches/transforms-3/a3db052be2afa96bc5372e6f6d92eebd/transformed/image-labeling-common-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:vision-common:17.0.0] /Users/kimjw/.gradle/caches/transforms-3/3deae63fc1510abd36d82405bff44826/transformed/vision-common-17.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:vision-common:17.0.0] /Users/kimjw/.gradle/caches/transforms-3/3deae63fc1510abd36d82405bff44826/transformed/vision-common-17.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:language-id:16.1.1] /Users/kimjw/.gradle/caches/transforms-3/6913b807dc6009718f570ec81b23678c/transformed/language-id-16.1.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:language-id:16.1.1] /Users/kimjw/.gradle/caches/transforms-3/6913b807dc6009718f570ec81b23678c/transformed/language-id-16.1.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:common:18.0.0] /Users/kimjw/.gradle/caches/transforms-3/f78124a519b5abfb06eff88f77fcd1ec/transformed/common-18.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:common:18.0.0] /Users/kimjw/.gradle/caches/transforms-3/f78124a519b5abfb06eff88f77fcd1ec/transformed/common-18.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/kimjw/.gradle/caches/transforms-3/bf12775cc5fcf4b2a9e007d7f7381cc6/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/kimjw/.gradle/caches/transforms-3/bf12775cc5fcf4b2a9e007d7f7381cc6/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/kimjw/.gradle/caches/transforms-3/a11d654e57306c247bdb46541947a33b/transformed/transport-runtime-2.2.6/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/kimjw/.gradle/caches/transforms-3/a11d654e57306c247bdb46541947a33b/transformed/transport-runtime-2.2.6/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] /Users/kimjw/.gradle/caches/transforms-3/701c74211d6c0ddf59c44caf4e91b397/transformed/transport-api-2.2.1/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] /Users/kimjw/.gradle/caches/transforms-3/701c74211d6c0ddf59c44caf4e91b397/transformed/transport-api-2.2.1/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:16.1.0] /Users/kimjw/.gradle/caches/transforms-3/f8cf4111b6e285f809c4dd3062581aa2/transformed/firebase-components-16.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.1.0] /Users/kimjw/.gradle/caches/transforms-3/f8cf4111b6e285f809c4dd3062581aa2/transformed/firebase-components-16.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] /Users/kimjw/.gradle/caches/transforms-3/e50b03aa3f1fd7a267d5ad89e3958135/transformed/firebase-encoders-json-17.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] /Users/kimjw/.gradle/caches/transforms-3/e50b03aa3f1fd7a267d5ad89e3958135/transformed/firebase-encoders-json-17.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-vision-face-contour-internal:16.0.3] /Users/kimjw/.gradle/caches/transforms-3/e419940f59a18d3cf7bb70cd83da2fbd/transformed/play-services-vision-face-contour-internal-16.0.3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-face-contour-internal:16.0.3] /Users/kimjw/.gradle/caches/transforms-3/e419940f59a18d3cf7bb70cd83da2fbd/transformed/play-services-vision-face-contour-internal-16.0.3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:20.1.2] /Users/kimjw/.gradle/caches/transforms-3/19a971861432b002b9c059245771400e/transformed/play-services-vision-20.1.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:20.1.2] /Users/kimjw/.gradle/caches/transforms-3/19a971861432b002b9c059245771400e/transformed/play-services-vision-20.1.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.2] /Users/kimjw/.gradle/caches/transforms-3/65ca6dc590ad4c8823b24689e837712c/transformed/play-services-vision-common-19.1.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.2] /Users/kimjw/.gradle/caches/transforms-3/65ca6dc590ad4c8823b24689e837712c/transformed/play-services-vision-common-19.1.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/kimjw/.gradle/caches/transforms-3/19381226103095212653238fc79ca9a8/transformed/play-services-clearcut-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/kimjw/.gradle/caches/transforms-3/19381226103095212653238fc79ca9a8/transformed/play-services-clearcut-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/kimjw/.gradle/caches/transforms-3/9bcd2d51b43d325d57950ef56c281b9f/transformed/play-services-phenotype-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/kimjw/.gradle/caches/transforms-3/9bcd2d51b43d325d57950ef56c281b9f/transformed/play-services-phenotype-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] /Users/kimjw/.gradle/caches/transforms-3/768921f607524dd6b5347c09a2c0e2dc/transformed/play-services-flags-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] /Users/kimjw/.gradle/caches/transforms-3/768921f607524dd6b5347c09a2c0e2dc/transformed/play-services-flags-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/kimjw/.gradle/caches/transforms-3/758d62629a5d8258cbd47bc94d203b55/transformed/play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/kimjw/.gradle/caches/transforms-3/758d62629a5d8258cbd47bc94d203b55/transformed/play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.mlkit:vision-interfaces:16.0.0] /Users/kimjw/.gradle/caches/transforms-3/20cc88a1818260a07e7a2799e1f781ad/transformed/vision-interfaces-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:vision-interfaces:16.0.0] /Users/kimjw/.gradle/caches/transforms-3/20cc88a1818260a07e7a2799e1f781ad/transformed/vision-interfaces-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/kimjw/.gradle/caches/transforms-3/aa459e305713e7cdf0626c1259edc5c9/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/kimjw/.gradle/caches/transforms-3/aa459e305713e7cdf0626c1259edc5c9/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/kimjw/.gradle/caches/transforms-3/9edfc1b32eeb7e838c28a2c0e61d77a9/transformed/play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/kimjw/.gradle/caches/transforms-3/9edfc1b32eeb7e838c28a2c0e61d77a9/transformed/play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /Users/kimjw/.gradle/caches/transforms-3/59deb45e82ad42d26fa240c80777931d/transformed/lifecycle-extensions-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /Users/kimjw/.gradle/caches/transforms-3/59deb45e82ad42d26fa240c80777931d/transformed/lifecycle-extensions-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/kimjw/.gradle/caches/transforms-3/39d86499b2df5710efb41e798446d941/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/kimjw/.gradle/caches/transforms-3/39d86499b2df5710efb41e798446d941/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/kimjw/.gradle/caches/transforms-3/2fee84ce99728401b49e699b68198397/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/kimjw/.gradle/caches/transforms-3/2fee84ce99728401b49e699b68198397/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /Users/kimjw/.gradle/caches/transforms-3/b5428e853c2d408dd2934edb55affac9/transformed/appcompat-resources-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /Users/kimjw/.gradle/caches/transforms-3/b5428e853c2d408dd2934edb55affac9/transformed/appcompat-resources-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/kimjw/.gradle/caches/transforms-3/e3ed8cf5a3ccf146a0777a43fd68c84d/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/kimjw/.gradle/caches/transforms-3/e3ed8cf5a3ccf146a0777a43fd68c84d/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/kimjw/.gradle/caches/transforms-3/ad6dc95340b171e84c4ad5205ef31393/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/kimjw/.gradle/caches/transforms-3/ad6dc95340b171e84c4ad5205ef31393/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/kimjw/.gradle/caches/transforms-3/97606c10bfcb34d8238bd3c5f3c5ee66/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/kimjw/.gradle/caches/transforms-3/97606c10bfcb34d8238bd3c5f3c5ee66/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /Users/kimjw/.gradle/caches/transforms-3/e89f6667b25ffd1e670d2a33688ccd32/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/kimjw/.gradle/caches/transforms-3/e89f6667b25ffd1e670d2a33688ccd32/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/kimjw/.gradle/caches/transforms-3/1cbd011c3c79b09f73786a9394ff1d25/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/kimjw/.gradle/caches/transforms-3/1cbd011c3c79b09f73786a9394ff1d25/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/kimjw/.gradle/caches/transforms-3/a6c2f42b601cff490190ba27a74071ea/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/kimjw/.gradle/caches/transforms-3/a6c2f42b601cff490190ba27a74071ea/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.1.0] /Users/kimjw/.gradle/caches/transforms-3/a00622f768f311280de9960ab1089357/transformed/room-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.1.0] /Users/kimjw/.gradle/caches/transforms-3/a00622f768f311280de9960ab1089357/transformed/room-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/kimjw/.gradle/caches/transforms-3/40d6bbf225defc3004a186228be097e6/transformed/activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/kimjw/.gradle/caches/transforms-3/40d6bbf225defc3004a186228be097e6/transformed/activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/kimjw/.gradle/caches/transforms-3/22e43e53ae6f241a8207f0c4c1d3eca2/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/kimjw/.gradle/caches/transforms-3/22e43e53ae6f241a8207f0c4c1d3eca2/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/kimjw/.gradle/caches/transforms-3/864d17286c0648734282e20b1f767e3c/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/kimjw/.gradle/caches/transforms-3/864d17286c0648734282e20b1f767e3c/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/kimjw/.gradle/caches/transforms-3/4e687c133cd9045696daa19214a6535c/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/kimjw/.gradle/caches/transforms-3/4e687c133cd9045696daa19214a6535c/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/kimjw/.gradle/caches/transforms-3/025ae0e8e070532a925b968a91c2dcd3/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/kimjw/.gradle/caches/transforms-3/025ae0e8e070532a925b968a91c2dcd3/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/kimjw/.gradle/caches/transforms-3/1cfdca0a52d476a8f2d6fbf7867352e3/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/kimjw/.gradle/caches/transforms-3/1cfdca0a52d476a8f2d6fbf7867352e3/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.7.0] /Users/kimjw/.gradle/caches/transforms-3/d1226069d146bfdbef2e62a7e382f846/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] /Users/kimjw/.gradle/caches/transforms-3/d1226069d146bfdbef2e62a7e382f846/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/kimjw/.gradle/caches/transforms-3/944f278a1c6f1b0e45f50820d68c4b1e/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/kimjw/.gradle/caches/transforms-3/944f278a1c6f1b0e45f50820d68c4b1e/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/kimjw/.gradle/caches/transforms-3/c4636bd196fd582af56cd975dfd0ad97/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/kimjw/.gradle/caches/transforms-3/c4636bd196fd582af56cd975dfd0ad97/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/kimjw/.gradle/caches/transforms-3/8467916821eec7ed9f67870391f24e64/transformed/savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/kimjw/.gradle/caches/transforms-3/8467916821eec7ed9f67870391f24e64/transformed/savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/kimjw/.gradle/caches/transforms-3/90fce9c3ebb4782128193c3634ef7bae/transformed/lifecycle-process-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/kimjw/.gradle/caches/transforms-3/90fce9c3ebb4782128193c3634ef7bae/transformed/lifecycle-process-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /Users/kimjw/.gradle/caches/transforms-3/24e0820f9a189ceffb26dc67b8afe6fe/transformed/lifecycle-service-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /Users/kimjw/.gradle/caches/transforms-3/24e0820f9a189ceffb26dc67b8afe6fe/transformed/lifecycle-service-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/kimjw/.gradle/caches/transforms-3/e3bf41c29559476e190b92f331dade28/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/kimjw/.gradle/caches/transforms-3/e3bf41c29559476e190b92f331dade28/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/kimjw/.gradle/caches/transforms-3/30d73f64a06bad2247d99c2121a73fe8/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/kimjw/.gradle/caches/transforms-3/30d73f64a06bad2247d99c2121a73fe8/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/kimjw/.gradle/caches/transforms-3/b61d68b331896ea26f23fd544338c1eb/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/kimjw/.gradle/caches/transforms-3/b61d68b331896ea26f23fd544338c1eb/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /Users/kimjw/.gradle/caches/transforms-3/c6788f277abd588eaf27ef12f18493ba/transformed/lifecycle-livedata-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /Users/kimjw/.gradle/caches/transforms-3/c6788f277abd588eaf27ef12f18493ba/transformed/lifecycle-livedata-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/kimjw/.gradle/caches/transforms-3/dbd726f71f367d1b2e628d962512265c/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/kimjw/.gradle/caches/transforms-3/dbd726f71f367d1b2e628d962512265c/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/kimjw/.gradle/caches/transforms-3/8c44cfbdeee2a652a2edc2eb95479194/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/kimjw/.gradle/caches/transforms-3/8c44cfbdeee2a652a2edc2eb95479194/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/kimjw/.gradle/caches/transforms-3/9ef67dc3576f4b585a720dcc2507aa55/transformed/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/kimjw/.gradle/caches/transforms-3/9ef67dc3576f4b585a720dcc2507aa55/transformed/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/kimjw/.gradle/caches/transforms-3/3367f2aef9957f33c0ae437b02a9c6b3/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/kimjw/.gradle/caches/transforms-3/3367f2aef9957f33c0ae437b02a9c6b3/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /Users/kimjw/.gradle/caches/transforms-3/959abd32dc794183d0a5622cbfa0d557/transformed/sqlite-framework-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /Users/kimjw/.gradle/caches/transforms-3/959abd32dc794183d0a5622cbfa0d557/transformed/sqlite-framework-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.1] /Users/kimjw/.gradle/caches/transforms-3/5894c3d9f6f74dbf9d8cbdea2bf1209e/transformed/sqlite-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.1] /Users/kimjw/.gradle/caches/transforms-3/5894c3d9f6f74dbf9d8cbdea2bf1209e/transformed/sqlite-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/kimjw/.gradle/caches/transforms-3/5b87d3a5c23a3888cf91c6e6e1911d15/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/kimjw/.gradle/caches/transforms-3/5b87d3a5c23a3888cf91c6e6e1911d15/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/kimjw/.gradle/caches/transforms-3/3796dee342b241c42166492d7a84105a/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/kimjw/.gradle/caches/transforms-3/3796dee342b241c42166492d7a84105a/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/kimjw/.gradle/caches/transforms-3/21d999d2482d5176fe1e8f8335d649f6/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/kimjw/.gradle/caches/transforms-3/21d999d2482d5176fe1e8f8335d649f6/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/kimjw/.gradle/caches/transforms-3/cf75896d21978a6e2d6dcd44588d889b/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/kimjw/.gradle/caches/transforms-3/cf75896d21978a6e2d6dcd44588d889b/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/kimjw/.gradle/caches/transforms-3/6f784ec98e20dba0ba6566870c016b4c/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/kimjw/.gradle/caches/transforms-3/6f784ec98e20dba0ba6566870c016b4c/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/kimjw/.gradle/caches/transforms-3/e273be70d1f54d1dd07f759b7827c3b3/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/kimjw/.gradle/caches/transforms-3/e273be70d1f54d1dd07f759b7827c3b3/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/kimjw/.gradle/caches/transforms-3/12b52ab2cc0dfb37ab9deedbb8c127e8/transformed/image-1.0.0-beta1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/kimjw/.gradle/caches/transforms-3/12b52ab2cc0dfb37ab9deedbb8c127e8/transformed/image-1.0.0-beta1/AndroidManifest.xml:5:5-44
+INJECTED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml
+INJECTED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml
+		ADDED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml
+		ADDED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/kimjw/Documents/GitHub/on-device-ai-study/04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml
+service#com.google.mlkit.common.internal.MlKitComponentDiscoveryService
+ADDED from [com.google.mlkit:object-detection:17.0.0] /Users/kimjw/.gradle/caches/transforms-3/8c4de9abb749b48646f4841a25a329b7/transformed/object-detection-17.0.0/AndroidManifest.xml:11:9-17:19
+MERGED from [com.google.mlkit:image-labeling:17.0.7] /Users/kimjw/.gradle/caches/transforms-3/00d890d80487a0c83ea63f98c2e363be/transformed/image-labeling-17.0.7/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.mlkit:image-labeling:17.0.7] /Users/kimjw/.gradle/caches/transforms-3/00d890d80487a0c83ea63f98c2e363be/transformed/image-labeling-17.0.7/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.mlkit:entity-extraction:16.0.0-beta1] /Users/kimjw/.gradle/caches/transforms-3/e47b42ea054d9632ab18769a6677f3d9/transformed/entity-extraction-16.0.0-beta1/AndroidManifest.xml:11:9-17:19
+MERGED from [com.google.mlkit:entity-extraction:16.0.0-beta1] /Users/kimjw/.gradle/caches/transforms-3/e47b42ea054d9632ab18769a6677f3d9/transformed/entity-extraction-16.0.0-beta1/AndroidManifest.xml:11:9-17:19
+MERGED from [com.google.mlkit:digital-ink-recognition:16.1.0] /Users/kimjw/.gradle/caches/transforms-3/b0e1fbe30dc5b2dd158411f029a81c28/transformed/digital-ink-recognition-16.1.0/AndroidManifest.xml:12:9-18:19
+MERGED from [com.google.mlkit:digital-ink-recognition:16.1.0] /Users/kimjw/.gradle/caches/transforms-3/b0e1fbe30dc5b2dd158411f029a81c28/transformed/digital-ink-recognition-16.1.0/AndroidManifest.xml:12:9-18:19
+MERGED from [com.google.mlkit:smart-reply:16.1.1] /Users/kimjw/.gradle/caches/transforms-3/6efd4b4cd2764f4ed7ed5b19e59eafd9/transformed/smart-reply-16.1.1/AndroidManifest.xml:23:9-32:19
+MERGED from [com.google.mlkit:smart-reply:16.1.1] /Users/kimjw/.gradle/caches/transforms-3/6efd4b4cd2764f4ed7ed5b19e59eafd9/transformed/smart-reply-16.1.1/AndroidManifest.xml:23:9-32:19
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:16.1.1] /Users/kimjw/.gradle/caches/transforms-3/7957afd19402a64492fb6334f8e2a4d3/transformed/play-services-mlkit-face-detection-16.1.1/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:16.1.1] /Users/kimjw/.gradle/caches/transforms-3/7957afd19402a64492fb6334f8e2a4d3/transformed/play-services-mlkit-face-detection-16.1.1/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/kimjw/.gradle/caches/transforms-3/96a6475ecd1cbb276859566048f29dc2/transformed/vision-internal-vkp-18.2.2/AndroidManifest.xml:11:9-17:19
+MERGED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/kimjw/.gradle/caches/transforms-3/96a6475ecd1cbb276859566048f29dc2/transformed/vision-internal-vkp-18.2.2/AndroidManifest.xml:11:9-17:19
+MERGED from [com.google.mlkit:vision-common:17.0.0] /Users/kimjw/.gradle/caches/transforms-3/3deae63fc1510abd36d82405bff44826/transformed/vision-common-17.0.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:vision-common:17.0.0] /Users/kimjw/.gradle/caches/transforms-3/3deae63fc1510abd36d82405bff44826/transformed/vision-common-17.0.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:language-id:16.1.1] /Users/kimjw/.gradle/caches/transforms-3/6913b807dc6009718f570ec81b23678c/transformed/language-id-16.1.1/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.mlkit:language-id:16.1.1] /Users/kimjw/.gradle/caches/transforms-3/6913b807dc6009718f570ec81b23678c/transformed/language-id-16.1.1/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.mlkit:common:18.0.0] /Users/kimjw/.gradle/caches/transforms-3/f78124a519b5abfb06eff88f77fcd1ec/transformed/common-18.0.0/AndroidManifest.xml:15:9-23:19
+MERGED from [com.google.mlkit:common:18.0.0] /Users/kimjw/.gradle/caches/transforms-3/f78124a519b5abfb06eff88f77fcd1ec/transformed/common-18.0.0/AndroidManifest.xml:15:9-23:19
+	android:exported
+		ADDED from [com.google.mlkit:object-detection:17.0.0] /Users/kimjw/.gradle/caches/transforms-3/8c4de9abb749b48646f4841a25a329b7/transformed/object-detection-17.0.0/AndroidManifest.xml:13:13-37
+	tools:targetApi
+		ADDED from [com.google.mlkit:common:18.0.0] /Users/kimjw/.gradle/caches/transforms-3/f78124a519b5abfb06eff88f77fcd1ec/transformed/common-18.0.0/AndroidManifest.xml:19:13-32
+	android:directBootAware
+		ADDED from [com.google.mlkit:common:18.0.0] /Users/kimjw/.gradle/caches/transforms-3/f78124a519b5abfb06eff88f77fcd1ec/transformed/common-18.0.0/AndroidManifest.xml:17:13-43
+	android:name
+		ADDED from [com.google.mlkit:object-detection:17.0.0] /Users/kimjw/.gradle/caches/transforms-3/8c4de9abb749b48646f4841a25a329b7/transformed/object-detection-17.0.0/AndroidManifest.xml:12:13-91
+meta-data#com.google.firebase.components:com.google.mlkit.vision.objects.defaults.internal.DefaultObjectsRegistrar
+ADDED from [com.google.mlkit:object-detection:17.0.0] /Users/kimjw/.gradle/caches/transforms-3/8c4de9abb749b48646f4841a25a329b7/transformed/object-detection-17.0.0/AndroidManifest.xml:14:13-16:85
+	android:value
+		ADDED from [com.google.mlkit:object-detection:17.0.0] /Users/kimjw/.gradle/caches/transforms-3/8c4de9abb749b48646f4841a25a329b7/transformed/object-detection-17.0.0/AndroidManifest.xml:16:17-82
+	android:name
+		ADDED from [com.google.mlkit:object-detection:17.0.0] /Users/kimjw/.gradle/caches/transforms-3/8c4de9abb749b48646f4841a25a329b7/transformed/object-detection-17.0.0/AndroidManifest.xml:15:17-136
+meta-data#com.google.firebase.components:com.google.mlkit.vision.label.defaults.internal.BundledLabelRegistrar
+ADDED from [com.google.mlkit:image-labeling:17.0.7] /Users/kimjw/.gradle/caches/transforms-3/00d890d80487a0c83ea63f98c2e363be/transformed/image-labeling-17.0.7/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.mlkit:image-labeling:17.0.7] /Users/kimjw/.gradle/caches/transforms-3/00d890d80487a0c83ea63f98c2e363be/transformed/image-labeling-17.0.7/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.mlkit:image-labeling:17.0.7] /Users/kimjw/.gradle/caches/transforms-3/00d890d80487a0c83ea63f98c2e363be/transformed/image-labeling-17.0.7/AndroidManifest.xml:12:17-132
+meta-data#com.google.firebase.components:com.google.mlkit.nl.entityextraction.internal.EntityExtractionComponentRegistrar
+ADDED from [com.google.mlkit:entity-extraction:16.0.0-beta1] /Users/kimjw/.gradle/caches/transforms-3/e47b42ea054d9632ab18769a6677f3d9/transformed/entity-extraction-16.0.0-beta1/AndroidManifest.xml:14:13-16:85
+	android:value
+		ADDED from [com.google.mlkit:entity-extraction:16.0.0-beta1] /Users/kimjw/.gradle/caches/transforms-3/e47b42ea054d9632ab18769a6677f3d9/transformed/entity-extraction-16.0.0-beta1/AndroidManifest.xml:16:17-82
+	android:name
+		ADDED from [com.google.mlkit:entity-extraction:16.0.0-beta1] /Users/kimjw/.gradle/caches/transforms-3/e47b42ea054d9632ab18769a6677f3d9/transformed/entity-extraction-16.0.0-beta1/AndroidManifest.xml:15:17-143
+meta-data#com.google.firebase.components:com.google.mlkit.vision.digitalink.internal.DigitalInkRecognitionRegistrar
+ADDED from [com.google.mlkit:digital-ink-recognition:16.1.0] /Users/kimjw/.gradle/caches/transforms-3/b0e1fbe30dc5b2dd158411f029a81c28/transformed/digital-ink-recognition-16.1.0/AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.mlkit:digital-ink-recognition:16.1.0] /Users/kimjw/.gradle/caches/transforms-3/b0e1fbe30dc5b2dd158411f029a81c28/transformed/digital-ink-recognition-16.1.0/AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.mlkit:digital-ink-recognition:16.1.0] /Users/kimjw/.gradle/caches/transforms-3/b0e1fbe30dc5b2dd158411f029a81c28/transformed/digital-ink-recognition-16.1.0/AndroidManifest.xml:16:17-137
+meta-data#com.google.firebase.components:com.google.mlkit.nl.smartreply.component.SmartReplyComponentRegistrar
+ADDED from [com.google.mlkit:smart-reply:16.1.1] /Users/kimjw/.gradle/caches/transforms-3/6efd4b4cd2764f4ed7ed5b19e59eafd9/transformed/smart-reply-16.1.1/AndroidManifest.xml:26:13-28:85
+	android:value
+		ADDED from [com.google.mlkit:smart-reply:16.1.1] /Users/kimjw/.gradle/caches/transforms-3/6efd4b4cd2764f4ed7ed5b19e59eafd9/transformed/smart-reply-16.1.1/AndroidManifest.xml:28:17-82
+	android:name
+		ADDED from [com.google.mlkit:smart-reply:16.1.1] /Users/kimjw/.gradle/caches/transforms-3/6efd4b4cd2764f4ed7ed5b19e59eafd9/transformed/smart-reply-16.1.1/AndroidManifest.xml:27:17-132
+meta-data#com.google.firebase.components:com.google.mlkit.nl.smartreply.component.RemoteConfigRegistrar
+ADDED from [com.google.mlkit:smart-reply:16.1.1] /Users/kimjw/.gradle/caches/transforms-3/6efd4b4cd2764f4ed7ed5b19e59eafd9/transformed/smart-reply-16.1.1/AndroidManifest.xml:29:13-31:85
+	android:value
+		ADDED from [com.google.mlkit:smart-reply:16.1.1] /Users/kimjw/.gradle/caches/transforms-3/6efd4b4cd2764f4ed7ed5b19e59eafd9/transformed/smart-reply-16.1.1/AndroidManifest.xml:31:17-82
+	android:name
+		ADDED from [com.google.mlkit:smart-reply:16.1.1] /Users/kimjw/.gradle/caches/transforms-3/6efd4b4cd2764f4ed7ed5b19e59eafd9/transformed/smart-reply-16.1.1/AndroidManifest.xml:30:17-125
+meta-data#com.google.firebase.components:com.google.mlkit.vision.face.internal.FaceRegistrar
+ADDED from [com.google.android.gms:play-services-mlkit-face-detection:16.1.1] /Users/kimjw/.gradle/caches/transforms-3/7957afd19402a64492fb6334f8e2a4d3/transformed/play-services-mlkit-face-detection-16.1.1/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-mlkit-face-detection:16.1.1] /Users/kimjw/.gradle/caches/transforms-3/7957afd19402a64492fb6334f8e2a4d3/transformed/play-services-mlkit-face-detection-16.1.1/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-mlkit-face-detection:16.1.1] /Users/kimjw/.gradle/caches/transforms-3/7957afd19402a64492fb6334f8e2a4d3/transformed/play-services-mlkit-face-detection-16.1.1/AndroidManifest.xml:13:17-114
+meta-data#com.google.firebase.components:com.google.mlkit.vision.vkp.VkpRegistrar
+ADDED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/kimjw/.gradle/caches/transforms-3/96a6475ecd1cbb276859566048f29dc2/transformed/vision-internal-vkp-18.2.2/AndroidManifest.xml:14:13-16:85
+	android:value
+		ADDED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/kimjw/.gradle/caches/transforms-3/96a6475ecd1cbb276859566048f29dc2/transformed/vision-internal-vkp-18.2.2/AndroidManifest.xml:16:17-82
+	android:name
+		ADDED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/kimjw/.gradle/caches/transforms-3/96a6475ecd1cbb276859566048f29dc2/transformed/vision-internal-vkp-18.2.2/AndroidManifest.xml:15:17-103
+meta-data#com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar
+ADDED from [com.google.mlkit:vision-common:17.0.0] /Users/kimjw/.gradle/caches/transforms-3/3deae63fc1510abd36d82405bff44826/transformed/vision-common-17.0.0/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.mlkit:vision-common:17.0.0] /Users/kimjw/.gradle/caches/transforms-3/3deae63fc1510abd36d82405bff44826/transformed/vision-common-17.0.0/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.mlkit:vision-common:17.0.0] /Users/kimjw/.gradle/caches/transforms-3/3deae63fc1510abd36d82405bff44826/transformed/vision-common-17.0.0/AndroidManifest.xml:13:17-124
+meta-data#com.google.firebase.components:com.google.mlkit.nl.languageid.LanguageIdRegistrar
+ADDED from [com.google.mlkit:language-id:16.1.1] /Users/kimjw/.gradle/caches/transforms-3/6913b807dc6009718f570ec81b23678c/transformed/language-id-16.1.1/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.mlkit:language-id:16.1.1] /Users/kimjw/.gradle/caches/transforms-3/6913b807dc6009718f570ec81b23678c/transformed/language-id-16.1.1/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.mlkit:language-id:16.1.1] /Users/kimjw/.gradle/caches/transforms-3/6913b807dc6009718f570ec81b23678c/transformed/language-id-16.1.1/AndroidManifest.xml:12:17-113
+provider#com.google.mlkit.common.internal.MlKitInitProvider
+ADDED from [com.google.mlkit:common:18.0.0] /Users/kimjw/.gradle/caches/transforms-3/f78124a519b5abfb06eff88f77fcd1ec/transformed/common-18.0.0/AndroidManifest.xml:9:9-13:38
+	android:authorities
+		ADDED from [com.google.mlkit:common:18.0.0] /Users/kimjw/.gradle/caches/transforms-3/f78124a519b5abfb06eff88f77fcd1ec/transformed/common-18.0.0/AndroidManifest.xml:11:13-69
+	android:exported
+		ADDED from [com.google.mlkit:common:18.0.0] /Users/kimjw/.gradle/caches/transforms-3/f78124a519b5abfb06eff88f77fcd1ec/transformed/common-18.0.0/AndroidManifest.xml:12:13-37
+	android:initOrder
+		ADDED from [com.google.mlkit:common:18.0.0] /Users/kimjw/.gradle/caches/transforms-3/f78124a519b5abfb06eff88f77fcd1ec/transformed/common-18.0.0/AndroidManifest.xml:13:13-35
+	android:name
+		ADDED from [com.google.mlkit:common:18.0.0] /Users/kimjw/.gradle/caches/transforms-3/f78124a519b5abfb06eff88f77fcd1ec/transformed/common-18.0.0/AndroidManifest.xml:10:13-78
+meta-data#com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar
+ADDED from [com.google.mlkit:common:18.0.0] /Users/kimjw/.gradle/caches/transforms-3/f78124a519b5abfb06eff88f77fcd1ec/transformed/common-18.0.0/AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.mlkit:common:18.0.0] /Users/kimjw/.gradle/caches/transforms-3/f78124a519b5abfb06eff88f77fcd1ec/transformed/common-18.0.0/AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.mlkit:common:18.0.0] /Users/kimjw/.gradle/caches/transforms-3/f78124a519b5abfb06eff88f77fcd1ec/transformed/common-18.0.0/AndroidManifest.xml:21:17-120
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/kimjw/.gradle/caches/transforms-3/bf12775cc5fcf4b2a9e007d7f7381cc6/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/kimjw/.gradle/caches/transforms-3/a11d654e57306c247bdb46541947a33b/transformed/transport-runtime-2.2.6/AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/kimjw/.gradle/caches/transforms-3/a11d654e57306c247bdb46541947a33b/transformed/transport-runtime-2.2.6/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/kimjw/.gradle/caches/transforms-3/bf12775cc5fcf4b2a9e007d7f7381cc6/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/kimjw/.gradle/caches/transforms-3/bf12775cc5fcf4b2a9e007d7f7381cc6/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/kimjw/.gradle/caches/transforms-3/bf12775cc5fcf4b2a9e007d7f7381cc6/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/kimjw/.gradle/caches/transforms-3/bf12775cc5fcf4b2a9e007d7f7381cc6/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/kimjw/.gradle/caches/transforms-3/bf12775cc5fcf4b2a9e007d7f7381cc6/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/kimjw/.gradle/caches/transforms-3/a11d654e57306c247bdb46541947a33b/transformed/transport-runtime-2.2.6/AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/kimjw/.gradle/caches/transforms-3/a11d654e57306c247bdb46541947a33b/transformed/transport-runtime-2.2.6/AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/kimjw/.gradle/caches/transforms-3/a11d654e57306c247bdb46541947a33b/transformed/transport-runtime-2.2.6/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/kimjw/.gradle/caches/transforms-3/a11d654e57306c247bdb46541947a33b/transformed/transport-runtime-2.2.6/AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/kimjw/.gradle/caches/transforms-3/a11d654e57306c247bdb46541947a33b/transformed/transport-runtime-2.2.6/AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/kimjw/.gradle/caches/transforms-3/a11d654e57306c247bdb46541947a33b/transformed/transport-runtime-2.2.6/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/kimjw/.gradle/caches/transforms-3/a11d654e57306c247bdb46541947a33b/transformed/transport-runtime-2.2.6/AndroidManifest.xml:33:13-132
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/kimjw/.gradle/caches/transforms-3/758d62629a5d8258cbd47bc94d203b55/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/kimjw/.gradle/caches/transforms-3/758d62629a5d8258cbd47bc94d203b55/transformed/play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/kimjw/.gradle/caches/transforms-3/758d62629a5d8258cbd47bc94d203b55/transformed/play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/kimjw/.gradle/caches/transforms-3/758d62629a5d8258cbd47bc94d203b55/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/kimjw/.gradle/caches/transforms-3/9edfc1b32eeb7e838c28a2c0e61d77a9/transformed/play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/kimjw/.gradle/caches/transforms-3/9edfc1b32eeb7e838c28a2c0e61d77a9/transformed/play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/kimjw/.gradle/caches/transforms-3/9edfc1b32eeb7e838c28a2c0e61d77a9/transformed/play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:25:22-65
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:27:5-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:27:22-78
+provider#androidx.work.impl.WorkManagerInitializer
+ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:30:9-36:35
+	android:authorities
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:32:13-68
+	android:multiprocess
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:35:13-40
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:34:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:33:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:31:13-69
+service#androidx.work.impl.background.systemalarm.SystemAlarmService
+ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:38:9-43:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:41:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:42:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:43:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:40:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:39:13-88
+service#androidx.work.impl.background.systemjob.SystemJobService
+ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:44:9-50:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:47:13-70
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:48:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:49:13-69
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:50:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:46:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:45:13-84
+receiver#androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:52:9-57:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:55:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:56:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:57:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:54:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:53:13-88
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:58:9-68:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:61:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:62:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:63:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:60:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:59:13-106
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:64:13-67:29
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:65:17-87
+	android:name
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:65:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:66:17-90
+	android:name
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:66:25-87
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:69:9-79:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:72:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:73:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:74:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:71:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:70:13-104
+intent-filter#action:name:android.intent.action.BATTERY_LOW+action:name:android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:75:13-78:29
+action#android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:76:17-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:76:25-74
+action#android.intent.action.BATTERY_LOW
+ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:77:17-76
+	android:name
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:77:25-73
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:80:9-90:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:83:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:84:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:85:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:82:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:81:13-104
+intent-filter#action:name:android.intent.action.DEVICE_STORAGE_LOW+action:name:android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:86:13-89:29
+action#android.intent.action.DEVICE_STORAGE_LOW
+ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:87:17-83
+	android:name
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:87:25-80
+action#android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:88:17-82
+	android:name
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:88:25-79
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:91:9-100:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:94:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:95:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:96:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:93:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:92:13-103
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:97:13-99:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:98:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:98:25-76
+receiver#androidx.work.impl.background.systemalarm.RescheduleReceiver
+ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:101:9-112:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:104:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:105:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:106:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:103:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:102:13-88
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:107:13-111:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:108:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:108:25-76
+action#android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:109:17-73
+	android:name
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:109:25-70
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:110:17-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:110:25-78
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:113:9-122:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:116:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:117:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:118:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:115:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:114:13-99
+intent-filter#action:name:androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:119:13-121:29
+action#androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:120:17-98
+	android:name
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/kimjw/.gradle/caches/transforms-3/2634defa38450c2a07daa31222f4d754/transformed/work-runtime-2.2.0/AndroidManifest.xml:120:25-95
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.1.0] /Users/kimjw/.gradle/caches/transforms-3/a00622f768f311280de9960ab1089357/transformed/room-runtime-2.1.0/AndroidManifest.xml:25:9-27:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.1.0] /Users/kimjw/.gradle/caches/transforms-3/a00622f768f311280de9960ab1089357/transformed/room-runtime-2.1.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.room:room-runtime:2.1.0] /Users/kimjw/.gradle/caches/transforms-3/a00622f768f311280de9960ab1089357/transformed/room-runtime-2.1.0/AndroidManifest.xml:26:13-74
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/kimjw/.gradle/caches/transforms-3/90fce9c3ebb4782128193c3634ef7bae/transformed/lifecycle-process-2.1.0/AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/kimjw/.gradle/caches/transforms-3/90fce9c3ebb4782128193c3634ef7bae/transformed/lifecycle-process-2.1.0/AndroidManifest.xml:25:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/kimjw/.gradle/caches/transforms-3/90fce9c3ebb4782128193c3634ef7bae/transformed/lifecycle-process-2.1.0/AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/kimjw/.gradle/caches/transforms-3/90fce9c3ebb4782128193c3634ef7bae/transformed/lifecycle-process-2.1.0/AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/kimjw/.gradle/caches/transforms-3/90fce9c3ebb4782128193c3634ef7bae/transformed/lifecycle-process-2.1.0/AndroidManifest.xml:24:13-79

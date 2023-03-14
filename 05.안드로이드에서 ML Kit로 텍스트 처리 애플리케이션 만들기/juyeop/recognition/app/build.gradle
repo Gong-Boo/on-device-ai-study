@@ -37,6 +37,23 @@ android {
 
 dependencies {
 
+<<<<<<< Updated upstream:05.안드로이드에서 ML Kit로 텍스트 처리 애플리케이션 만들기/juyeop/recognition/app/build.gradle
+=======
+    implementation 'com.google.mlkit:face-detection:16.0.2'
+
+    implementation "com.google.mlkit:object-detection:17.0.0"
+    implementation "com.google.mlkit:image-labeling:17.0.7"
+
+    implementation 'com.google.mlkit:entity-extraction:16.0.0-beta1'
+    implementation 'com.google.mlkit:digital-ink-recognition:16.1.0'
+    implementation 'com.google.mlkit:smart-reply:16.1.1'
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:1.4.32"
+
+    implementation("androidx.core:core-ktx:1.5.0")
+    implementation "androidx.fragment:fragment-ktx:1.3.6"
+
+>>>>>>> Stashed changes:04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/build.gradle
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'com.google.android.material:material:1.8.0'

@@ -1,0 +1,90 @@
+[
+    {
+        "merged": "com.paytest.fd.app-merged_res-27:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.paytest.fd.app-main-29:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.paytest.fd.app-merged_res-27:/layout_activity_main.xml.flat",
+        "source": "com.paytest.fd.app-main-29:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.paytest.fd.app-merged_res-27:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.paytest.fd.app-main-29:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.paytest.fd.app-merged_res-27:/layout_activity_image_lable.xml.flat",
+        "source": "com.paytest.fd.app-main-29:/layout/activity_image_lable.xml"
+    },
+    {
+        "merged": "com.paytest.fd.app-merged_res-27:/layout_activity_entity.xml.flat",
+        "source": "com.paytest.fd.app-main-29:/layout/activity_entity.xml"
+    },
+    {
+        "merged": "com.paytest.fd.app-merged_res-27:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.paytest.fd.app-main-29:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.paytest.fd.app-merged_res-27:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.paytest.fd.app-main-29:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.paytest.fd.app-merged_res-27:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.paytest.fd.app-main-29:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.paytest.fd.app-merged_res-27:/xml_data_extraction_rules.xml.flat",
+        "source": "com.paytest.fd.app-main-29:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.paytest.fd.app-merged_res-27:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.paytest.fd.app-main-29:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.paytest.fd.app-merged_res-27:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.paytest.fd.app-main-29:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.paytest.fd.app-merged_res-27:/layout_activity_hand_write.xml.flat",
+        "source": "com.paytest.fd.app-main-29:/layout/activity_hand_write.xml"
+    },
+    {
+        "merged": "com.paytest.fd.app-merged_res-27:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.paytest.fd.app-main-29:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.paytest.fd.app-merged_res-27:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.paytest.fd.app-main-29:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.paytest.fd.app-merged_res-27:/layout_activity_object_detect.xml.flat",
+        "source": "com.paytest.fd.app-main-29:/layout/activity_object_detect.xml"
+    },
+    {
+        "merged": "com.paytest.fd.app-merged_res-27:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.paytest.fd.app-pngs-22:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.paytest.fd.app-merged_res-27:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.paytest.fd.app-main-29:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.paytest.fd.app-merged_res-27:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.paytest.fd.app-main-29:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.paytest.fd.app-merged_res-27:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.paytest.fd.app-main-29:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.paytest.fd.app-merged_res-27:/xml_backup_rules.xml.flat",
+        "source": "com.paytest.fd.app-main-29:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.paytest.fd.app-merged_res-27:/layout_activity_smart_reply.xml.flat",
+        "source": "com.paytest.fd.app-main-29:/layout/activity_smart_reply.xml"
+    },
+    {
+        "merged": "com.paytest.fd.app-merged_res-27:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.paytest.fd.app-main-29:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    }
+]

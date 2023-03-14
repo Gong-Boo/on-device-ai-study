@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MLKit"
+        tools:targetApi="31">
+        <activity
+<<<<<<< Updated upstream:05.안드로이드에서 ML Kit로 텍스트 처리 애플리케이션 만들기/parkjin/app/src/main/AndroidManifest.xml
+            android:name=".MainActivity"
+            android:exported="true">
+=======
+            android:name=".SmartReplyActivity"
+            android:exported="true" >
+>>>>>>> Stashed changes:04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+<<<<<<< Updated upstream:05.안드로이드에서 ML Kit로 텍스트 처리 애플리케이션 만들기/parkjin/app/src/main/AndroidManifest.xml
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+=======
+        </activity>
+        <activity
+            android:name=".HandWriteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EntityActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ObjectDetectActivity"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".ImageLableActivity"
+            android:exported="true"
+            android:theme="@style/Theme.FD.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+>>>>>>> Stashed changes:04.안드로이드에서 ML Kit로 컴퓨터 비전 애플리케이션 만들기/FD/app/src/main/AndroidManifest.xml
+    </application>
+
+</manifest>

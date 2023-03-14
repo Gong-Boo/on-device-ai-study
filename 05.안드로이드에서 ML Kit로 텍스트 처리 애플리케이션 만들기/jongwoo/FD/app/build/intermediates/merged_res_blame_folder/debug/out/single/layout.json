@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "com.paytest.fd.app-mergeDebugResources-26:/layout/activity_image_lable.xml",
+        "source": "com.paytest.fd.app-main-29:/layout/activity_image_lable.xml"
+    },
+    {
+        "merged": "com.paytest.fd.app-mergeDebugResources-26:/layout/activity_entity.xml",
+        "source": "com.paytest.fd.app-main-29:/layout/activity_entity.xml"
+    },
+    {
+        "merged": "com.paytest.fd.app-mergeDebugResources-26:/layout/activity_object_detect.xml",
+        "source": "com.paytest.fd.app-main-29:/layout/activity_object_detect.xml"
+    },
+    {
+        "merged": "com.paytest.fd.app-mergeDebugResources-26:/layout/activity_smart_reply.xml",
+        "source": "com.paytest.fd.app-main-29:/layout/activity_smart_reply.xml"
+    },
+    {
+        "merged": "com.paytest.fd.app-mergeDebugResources-26:/layout/activity_hand_write.xml",
+        "source": "com.paytest.fd.app-main-29:/layout/activity_hand_write.xml"
+    },
+    {
+        "merged": "com.paytest.fd.app-mergeDebugResources-26:/layout/activity_main.xml",
+        "source": "com.paytest.fd.app-main-29:/layout/activity_main.xml"
+    }
+]

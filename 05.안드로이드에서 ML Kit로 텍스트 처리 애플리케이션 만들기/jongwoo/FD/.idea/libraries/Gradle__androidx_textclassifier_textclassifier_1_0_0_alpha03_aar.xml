@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.textclassifier:textclassifier:1.0.0-alpha03@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/ccddd7e0df3053952bb971ea80c7a15b/transformed/textclassifier-1.0.0-alpha03/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/ccddd7e0df3053952bb971ea80c7a15b/transformed/textclassifier-1.0.0-alpha03/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ccddd7e0df3053952bb971ea80c7a15b/transformed/textclassifier-1.0.0-alpha03/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ccddd7e0df3053952bb971ea80c7a15b/transformed/textclassifier-1.0.0-alpha03/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.textclassifier/textclassifier/1.0.0-alpha03/ea4ea8744fe8ec630550686489894d2bcac8351/textclassifier-1.0.0-alpha03-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

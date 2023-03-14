@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.mlkit:digital-ink-recognition:16.1.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/b0e1fbe30dc5b2dd158411f029a81c28/transformed/digital-ink-recognition-16.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b0e1fbe30dc5b2dd158411f029a81c28/transformed/digital-ink-recognition-16.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b0e1fbe30dc5b2dd158411f029a81c28/transformed/digital-ink-recognition-16.1.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.mlkit/digital-ink-recognition/16.1.0/b9808201bd2874561f595c97c4a5973a9711c117/digital-ink-recognition-16.1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

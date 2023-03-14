@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.paytest.fd.app-mergeDebugResources-25:/values-v26/values-v26.xml",
+            "map": [
+                {
+                    "source": "/Users/kimjw/.gradle/caches/transforms-3/36b587862ffd7aa0dffc766f47fa0e3e/transformed/appcompat-1.3.0/res/values-v26/values-v26.xml",
+                    "from": {
+                        "startLines": "2,3,4,8,12,16",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,130,217,431,657,896",
+                        "endLines": "2,3,7,11,15,16",
+                        "endColumns": "74,86,12,12,12,92",
+                        "endOffsets": "125,212,426,652,891,984"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,9,13,17",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "128,203,290,454,630,869",
+                        "endLines": "3,4,8,12,16,17",
+                        "endColumns": "74,86,12,12,12,92",
+                        "endOffsets": "198,285,449,625,864,957"
+                    }
+                },
+                {
+                    "source": "/Users/kimjw/.gradle/caches/transforms-3/ccddd7e0df3053952bb971ea80c7a15b/transformed/textclassifier-1.0.0-alpha03/res/values-v26/values-v26.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "72",
+                        "endOffsets": "123"
+                    }
+                }
+            ]
+        }
+    ]
+}

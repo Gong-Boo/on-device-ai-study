@@ -34,8 +34,6 @@ class ImageClassifierActivity : AppCompatActivity(), View.OnClickListener {
         findViewById<ImageView>(R.id.iv_4).setOnClickListener(this)
         findViewById<ImageView>(R.id.iv_5).setOnClickListener(this)
         findViewById<ImageView>(R.id.iv_6).setOnClickListener(this)
-
-
     }
 
     override fun onClick(view: View?) {
@@ -45,6 +43,4 @@ class ImageClassifierActivity : AppCompatActivity(), View.OnClickListener {
 
         runOnUiThread { Toast.makeText(this, result.get(0).title, Toast.LENGTH_SHORT).show() }
     }
-
-
 }

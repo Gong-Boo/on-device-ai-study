@@ -11,20 +11,28 @@ import java.nio.MappedByteBuffer
 import java.nio.channels.FileChannel
 import java.util.PriorityQueue
 
-class Classifier(assetManager: AssetManager, modelPath: String, labelPath: String, inputSize: Int) {
+class Classifier(
+    assetManager: AssetManager,
+    modelPath: String,
+    labelPath: String,
+    private val inputSize: Int
+) {
+
+    companion object {
+        private const val PIXEL_SIZE = 3
+        private const val IMAGE_MEAN = 0
+        private const val IMAGE_STD = 255.0f
+        private const val MAX_RESULTS = 3
+        private const val THRESHOLD = 0.4f
+    }
+
     private var interpreter: Interpreter
     private var labelList: List<String>
-    private val INPUT_SIZE: Int = inputSize
-    private val PIXEL_SIZE: Int = 3
-    private val IMAGE_MEAN = 0
-    private val IMAGE_STD = 255.0f
-    private val MAX_RESULTS = 3
-    private val THRESHOLD = 0.4f
 
     data class Recognition(
-        var id: String = "",
-        var title: String = "",
-        var confidence: Float = 0F
+        val id: String = "",
+        val title: String = "",
+        val confidence: Float = 0F
     ) {
         override fun toString(): String {
             return "Title = $title, Confidence = $confidence)"
@@ -57,7 +65,7 @@ class Classifier(assetManager: AssetManager, modelPath: String, labelPath: Strin
      * on the passed bitmap
      */
     fun recognizeImage(bitmap: Bitmap): List<Recognition> {
-        val scaledBitmap = Bitmap.createScaledBitmap(bitmap, INPUT_SIZE, INPUT_SIZE, false)
+        val scaledBitmap = Bitmap.createScaledBitmap(bitmap, inputSize, inputSize, false)
         val byteBuffer = convertBitmapToByteBuffer(scaledBitmap)
         val result = Array(1) { FloatArray(labelList.size) }
         interpreter.run(byteBuffer, result)
@@ -65,14 +73,14 @@ class Classifier(assetManager: AssetManager, modelPath: String, labelPath: Strin
     }
 
     private fun convertBitmapToByteBuffer(bitmap: Bitmap): ByteBuffer {
-        val byteBuffer = ByteBuffer.allocateDirect(4 * INPUT_SIZE * INPUT_SIZE * PIXEL_SIZE)
+        val byteBuffer = ByteBuffer.allocateDirect(4 * inputSize * inputSize * PIXEL_SIZE)
         byteBuffer.order(ByteOrder.nativeOrder())
-        val intValues = IntArray(INPUT_SIZE * INPUT_SIZE)
+        val intValues = IntArray(inputSize * inputSize)
 
         bitmap.getPixels(intValues, 0, bitmap.width, 0, 0, bitmap.width, bitmap.height)
         var pixel = 0
-        for (i in 0 until INPUT_SIZE) {
-            for (j in 0 until INPUT_SIZE) {
+        for (i in 0 until inputSize) {
+            for (j in 0 until inputSize) {
                 val input = intValues[pixel++]
 
                 byteBuffer.putFloat((((input.shr(16) and 0xFF) - IMAGE_MEAN) / IMAGE_STD))
@@ -83,7 +91,7 @@ class Classifier(assetManager: AssetManager, modelPath: String, labelPath: Strin
         return byteBuffer
     }
 
-    private fun getSortedResult(labelProbArray: Array<FloatArray>): List<Classifier.Recognition> {
+    private fun getSortedResult(labelProbArray: Array<FloatArray>): List<Recognition> {
         Log.d(
             "Classifier",
             "List Size:(%d, %d, %d)".format(
@@ -105,7 +113,7 @@ class Classifier(assetManager: AssetManager, modelPath: String, labelPath: Strin
             val confidence = labelProbArray[0][i]
             if (confidence >= THRESHOLD) {
                 pq.add(
-                    Classifier.Recognition(
+                    Recognition(
                         "" + i,
                         if (labelList.size > i) labelList[i] else "Unknown",
                         confidence
@@ -115,10 +123,10 @@ class Classifier(assetManager: AssetManager, modelPath: String, labelPath: Strin
         }
         Log.d("Classifier", "pqsize:(%d)".format(pq.size))
 
-        val recognitions = ArrayList<Classifier.Recognition>()
-        val recognitionsSize = Math.min(pq.size, MAX_RESULTS)
+        val recognitions = ArrayList<Recognition>()
+        val recognitionsSize = pq.size.coerceAtMost(MAX_RESULTS)
         for (i in 0 until recognitionsSize) {
-            recognitions.add(pq.poll())
+            pq.poll()?.let { recognitions.add(it) }
         }
         return recognitions
     }

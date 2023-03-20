@@ -2,45 +2,40 @@ package com.google.tflite.catvsdog.view
 
 import android.graphics.drawable.BitmapDrawable
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
 import android.view.View
 import android.widget.ImageView
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import com.google.tflite.catvsdog.R
 import com.google.tflite.catvsdog.tflite.Classifier
 
-class ImageClassifierActivity : AppCompatActivity(), View.OnClickListener {
+class ImageClassifierActivity : AppCompatActivity() {
 
-    private val mInputSize = 224
-    private val mModelPath = "converted_model.tflite"
-    private val mLabelPath = "label.txt"
-    private lateinit var classifier: Classifier
+    companion object {
+        private const val MODEL_PATH = "converted_model.tflite"
+        private const val LABEL_PATH = "label.txt"
+        private const val INPUT_SIZE = 224
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_image_classifier)
-        initClassifier()
-        initViews()
+
+        val classifier = Classifier(assets, MODEL_PATH, LABEL_PATH, INPUT_SIZE)
+        initViews(classifier)
     }
 
-    private fun initClassifier() {
-        classifier = Classifier(assets, mModelPath, mLabelPath, mInputSize)
-    }
+    private fun initViews(classifier: Classifier) {
+        val listener: (View?) -> Unit = { view ->
+            val bitmap = ((view as ImageView).drawable as BitmapDrawable).bitmap
+            val result = classifier.recognizeImage(bitmap)
+            runOnUiThread {
+                Toast.makeText(this, result.firstOrNull()?.title, Toast.LENGTH_SHORT).show()
+            }
+        }
 
-    private fun initViews() {
-        findViewById<ImageView>(R.id.iv_1).setOnClickListener(this)
-        findViewById<ImageView>(R.id.iv_2).setOnClickListener(this)
-        findViewById<ImageView>(R.id.iv_3).setOnClickListener(this)
-        findViewById<ImageView>(R.id.iv_4).setOnClickListener(this)
-        findViewById<ImageView>(R.id.iv_5).setOnClickListener(this)
-        findViewById<ImageView>(R.id.iv_6).setOnClickListener(this)
-    }
-
-    override fun onClick(view: View?) {
-        val bitmap = ((view as ImageView).drawable as BitmapDrawable).bitmap
-
-        val result = classifier.recognizeImage(bitmap)
-
-        runOnUiThread { Toast.makeText(this, result.get(0).title, Toast.LENGTH_SHORT).show() }
+        listOf(R.id.iv_1, R.id.iv_2, R.id.iv_3, R.id.iv_4, R.id.iv_5, R.id.iv_6)
+            .map { findViewById<ImageView>(it) }
+            .forEach { it.setOnClickListener(listener) }
     }
 }

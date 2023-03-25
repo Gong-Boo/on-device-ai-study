@@ -1,0 +1,9 @@
+val fileDescriptor = assetManager.openFd(modelPath)
+        val inputStream = FileInputStream(fileDescriptor.fileDescriptor) val fileChannel = inputStream.channel
+        val startOffset = fileDescriptor.startOffset
+        val startOffset = fileDescriptor.startOffset
+        val startOffset = fileDescriptor.startOffset
+        val startOffset = fileDescriptor.startOffset
+        val startOffset = fileDescriptor.startOffset
+        val startOffset = fileDescriptor.startOffset
+        val declaredLength = fileDescriptor.declaredLength

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "103659958735",
+    "project_id": "multi-flowers-b8b7c",
+    "storage_bucket": "multi-flowers-b8b7c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:103659958735:android:760621fc8fa42a4d6062ba",
+        "android_client_info": {
+          "package_name": "com.parkjin.tensorflow_lite"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "103659958735-2jvmhc77605j3hbr3qv2f3nsu0bdjc1j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFnH9TbuYHajt1CD_DVTkNZ1dU_R8DWTg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "103659958735-2jvmhc77605j3hbr3qv2f3nsu0bdjc1j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
